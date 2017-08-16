@@ -1,0 +1,8 @@
+E:\study\karan\practical\C#\CSharpAssignment\NameSpaces\bin\Debug\netcoreapp1.1\NameSpaces.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\NameSpaces\bin\Debug\netcoreapp1.1\NameSpaces.runtimeconfig.json
+E:\study\karan\practical\C#\CSharpAssignment\NameSpaces\bin\Debug\netcoreapp1.1\NameSpaces.runtimeconfig.dev.json
+E:\study\karan\practical\C#\CSharpAssignment\NameSpaces\bin\Debug\netcoreapp1.1\NameSpaces.dll
+E:\study\karan\practical\C#\CSharpAssignment\NameSpaces\bin\Debug\netcoreapp1.1\NameSpaces.pdb
+E:\study\karan\practical\C#\CSharpAssignment\NameSpaces\obj\Debug\netcoreapp1.1\NameSpaces.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\NameSpaces\obj\Debug\netcoreapp1.1\NameSpaces.dll
+E:\study\karan\practical\C#\CSharpAssignment\NameSpaces\obj\Debug\netcoreapp1.1\NameSpaces.pdb

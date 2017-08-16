@@ -1,0 +1,6 @@
+E:\study\karan\practical\C#\CSharpAssignment\ClassConcept\bin\Debug\ClassConcept.exe.config
+E:\study\karan\practical\C#\CSharpAssignment\ClassConcept\bin\Debug\ClassConcept.exe
+E:\study\karan\practical\C#\CSharpAssignment\ClassConcept\bin\Debug\ClassConcept.pdb
+E:\study\karan\practical\C#\CSharpAssignment\ClassConcept\obj\Debug\ClassConcept.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\C#\CSharpAssignment\ClassConcept\obj\Debug\ClassConcept.exe
+E:\study\karan\practical\C#\CSharpAssignment\ClassConcept\obj\Debug\ClassConcept.pdb

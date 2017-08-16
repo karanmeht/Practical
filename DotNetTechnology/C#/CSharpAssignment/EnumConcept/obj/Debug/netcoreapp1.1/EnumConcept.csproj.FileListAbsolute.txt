@@ -1,0 +1,9 @@
+E:\study\karan\practical\C#\CSharpAssignment\EnumConcept\bin\Debug\netcoreapp1.1\EnumConcept.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\EnumConcept\bin\Debug\netcoreapp1.1\EnumConcept.runtimeconfig.json
+E:\study\karan\practical\C#\CSharpAssignment\EnumConcept\bin\Debug\netcoreapp1.1\EnumConcept.runtimeconfig.dev.json
+E:\study\karan\practical\C#\CSharpAssignment\EnumConcept\bin\Debug\netcoreapp1.1\EnumConcept.dll
+E:\study\karan\practical\C#\CSharpAssignment\EnumConcept\bin\Debug\netcoreapp1.1\EnumConcept.pdb
+E:\study\karan\practical\C#\CSharpAssignment\EnumConcept\obj\Debug\netcoreapp1.1\EnumConcept.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\EnumConcept\obj\Debug\netcoreapp1.1\EnumConcept.dll
+E:\study\karan\practical\C#\CSharpAssignment\EnumConcept\obj\Debug\netcoreapp1.1\EnumConcept.pdb
+E:\study\karan\practical\C#\CSharpAssignment\EnumConcept\obj\Debug\netcoreapp1.1\EnumConcept.csprojResolveAssemblyReference.cache

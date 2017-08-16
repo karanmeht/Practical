@@ -1,0 +1,7 @@
+E:\study\karan\practical\C#\CSharpAssignment\Namespace.TeamA\bin\Debug\netstandard1.4\NameSpace.TeamA.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\Namespace.TeamA\bin\Debug\netstandard1.4\NameSpace.TeamA.dll
+E:\study\karan\practical\C#\CSharpAssignment\Namespace.TeamA\bin\Debug\netstandard1.4\NameSpace.TeamA.pdb
+E:\study\karan\practical\C#\CSharpAssignment\Namespace.TeamA\obj\Debug\netstandard1.4\NameSpace.TeamA.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\C#\CSharpAssignment\Namespace.TeamA\obj\Debug\netstandard1.4\NameSpace.TeamA.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\Namespace.TeamA\obj\Debug\netstandard1.4\NameSpace.TeamA.dll
+E:\study\karan\practical\C#\CSharpAssignment\Namespace.TeamA\obj\Debug\netstandard1.4\NameSpace.TeamA.pdb

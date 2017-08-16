@@ -1,0 +1,9 @@
+E:\study\karan\practical\C#\CSharpAssignment\ExceptionsConcept\bin\Debug\netcoreapp1.1\ExceptionsConcept.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\ExceptionsConcept\bin\Debug\netcoreapp1.1\ExceptionsConcept.runtimeconfig.json
+E:\study\karan\practical\C#\CSharpAssignment\ExceptionsConcept\bin\Debug\netcoreapp1.1\ExceptionsConcept.runtimeconfig.dev.json
+E:\study\karan\practical\C#\CSharpAssignment\ExceptionsConcept\bin\Debug\netcoreapp1.1\ExceptionsConcept.dll
+E:\study\karan\practical\C#\CSharpAssignment\ExceptionsConcept\bin\Debug\netcoreapp1.1\ExceptionsConcept.pdb
+E:\study\karan\practical\C#\CSharpAssignment\ExceptionsConcept\obj\Debug\netcoreapp1.1\ExceptionsConcept.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\ExceptionsConcept\obj\Debug\netcoreapp1.1\ExceptionsConcept.dll
+E:\study\karan\practical\C#\CSharpAssignment\ExceptionsConcept\obj\Debug\netcoreapp1.1\ExceptionsConcept.pdb
+E:\study\karan\practical\C#\CSharpAssignment\ExceptionsConcept\obj\Debug\netcoreapp1.1\ExceptionsConcept.csprojResolveAssemblyReference.cache

@@ -1,0 +1,134 @@
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\csc.exe
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\csc.exe.config
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\csc.rsp
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\csi.exe
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\csi.rsp
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\System.AppContext.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\vbc.exe
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\vbc.exe.config
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\vbc.rsp
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\VBCSCompiler.exe
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\ManagementSystem.dll.config
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\ManagementSystem.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\ManagementSystem.pdb
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\EntityFramework.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\EntityFramework.SqlServer.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\Newtonsoft.Json.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Net.Http.Formatting.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Helpers.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Http.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Http.WebHost.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Mvc.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Razor.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Webpages.Deployment.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Webpages.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Webpages.Razor.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\EntityFramework.xml
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\EntityFramework.SqlServer.xml
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\Newtonsoft.Json.xml
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Net.Http.Formatting.xml
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Http.xml
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Http.WebHost.xml
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Razor.xml
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Webpages.xml
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Webpages.Deployment.xml
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Webpages.Razor.xml
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Helpers.xml
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\System.Web.Mvc.xml
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.csprojResolveAssemblyReference.cache
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.pdb
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\Microsoft.Practices.ServiceLocation.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\Microsoft.Practices.Unity.Configuration.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\Microsoft.Practices.Unity.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\Unity.Mvc3.dll
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\Microsoft.Practices.ServiceLocation.pdb
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\Microsoft.Practices.ServiceLocation.xml
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\Microsoft.Practices.Unity.xml
+c:\users\karan\documents\visual studio 2017\Projects\ManagementSystem\ManagementSystem\bin\Microsoft.Practices.Unity.Configuration.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\csc.exe
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\csc.exe.config
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\csc.rsp
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\csi.exe
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\csi.rsp
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\System.AppContext.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\vbc.exe
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\vbc.exe.config
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\vbc.rsp
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\VBCSCompiler.exe
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\ManagementSystem.dll.config
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\ManagementSystem.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\ManagementSystem.pdb
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\EntityFramework.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\EntityFramework.SqlServer.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\Microsoft.Practices.ServiceLocation.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\Microsoft.Practices.Unity.Configuration.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\Microsoft.Practices.Unity.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\Newtonsoft.Json.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Net.Http.Formatting.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Helpers.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Http.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Http.WebHost.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Mvc.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Razor.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Webpages.Deployment.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Webpages.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Webpages.Razor.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\Unity.Mvc3.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\EntityFramework.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\EntityFramework.SqlServer.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\Microsoft.Practices.ServiceLocation.pdb
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\Microsoft.Practices.ServiceLocation.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\Microsoft.Practices.Unity.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\Microsoft.Practices.Unity.Configuration.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\Newtonsoft.Json.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Net.Http.Formatting.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Http.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Http.WebHost.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Razor.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Webpages.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Webpages.Deployment.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Webpages.Razor.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Helpers.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\bin\System.Web.Mvc.xml
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.dll
+E:\study\karan\practical\DotNetTechnology\DotNetFramework\ASP.NET\ManagementSystem\ManagementSystem\obj\Debug\ManagementSystem.pdb

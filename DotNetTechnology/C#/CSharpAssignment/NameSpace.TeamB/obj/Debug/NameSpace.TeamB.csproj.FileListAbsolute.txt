@@ -1,0 +1,4 @@
+E:\study\karan\practical\C#\CSharpAssignment\NameSpace.TeamB\bin\Debug\NameSpace.TeamB.dll
+E:\study\karan\practical\C#\CSharpAssignment\NameSpace.TeamB\bin\Debug\NameSpace.TeamB.pdb
+E:\study\karan\practical\C#\CSharpAssignment\NameSpace.TeamB\obj\Debug\NameSpace.TeamB.dll
+E:\study\karan\practical\C#\CSharpAssignment\NameSpace.TeamB\obj\Debug\NameSpace.TeamB.pdb

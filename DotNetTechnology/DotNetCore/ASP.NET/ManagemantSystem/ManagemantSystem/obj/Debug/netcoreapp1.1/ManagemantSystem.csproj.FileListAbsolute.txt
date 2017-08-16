@@ -1,0 +1,17 @@
+E:\study\karan\practical\MVC C#\ManagemantSystem\ManagemantSystem\bin\Debug\netcoreapp1.1\ManagemantSystem.deps.json
+E:\study\karan\practical\MVC C#\ManagemantSystem\ManagemantSystem\bin\Debug\netcoreapp1.1\ManagemantSystem.runtimeconfig.json
+E:\study\karan\practical\MVC C#\ManagemantSystem\ManagemantSystem\bin\Debug\netcoreapp1.1\ManagemantSystem.runtimeconfig.dev.json
+E:\study\karan\practical\MVC C#\ManagemantSystem\ManagemantSystem\bin\Debug\netcoreapp1.1\ManagemantSystem.dll
+E:\study\karan\practical\MVC C#\ManagemantSystem\ManagemantSystem\bin\Debug\netcoreapp1.1\ManagemantSystem.pdb
+E:\study\karan\practical\MVC C#\ManagemantSystem\ManagemantSystem\obj\Debug\netcoreapp1.1\ManagemantSystem.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\MVC C#\ManagemantSystem\ManagemantSystem\obj\Debug\netcoreapp1.1\ManagemantSystem.AssemblyInfo.cs
+E:\study\karan\practical\MVC C#\ManagemantSystem\ManagemantSystem\obj\Debug\netcoreapp1.1\ManagemantSystem.dll
+E:\study\karan\practical\MVC C#\ManagemantSystem\ManagemantSystem\obj\Debug\netcoreapp1.1\ManagemantSystem.pdb
+E:\study\karan\practical\DotNet Technology\Asp.net\ManagemantSystem\ManagemantSystem\bin\Debug\netcoreapp1.1\ManagemantSystem.deps.json
+E:\study\karan\practical\DotNet Technology\Asp.net\ManagemantSystem\ManagemantSystem\bin\Debug\netcoreapp1.1\ManagemantSystem.runtimeconfig.json
+E:\study\karan\practical\DotNet Technology\Asp.net\ManagemantSystem\ManagemantSystem\bin\Debug\netcoreapp1.1\ManagemantSystem.runtimeconfig.dev.json
+E:\study\karan\practical\DotNet Technology\Asp.net\ManagemantSystem\ManagemantSystem\obj\Debug\netcoreapp1.1\ManagemantSystem.AssemblyInfo.cs
+E:\study\karan\practical\DotNet Technology\Asp.net\ManagemantSystem\ManagemantSystem\obj\Debug\netcoreapp1.1\ManagemantSystem.dll
+E:\study\karan\practical\DotNet Technology\Asp.net\ManagemantSystem\ManagemantSystem\obj\Debug\netcoreapp1.1\ManagemantSystem.pdb
+E:\study\karan\practical\DotNet Technology\Asp.net\ManagemantSystem\ManagemantSystem\bin\Debug\netcoreapp1.1\ManagemantSystem.dll
+E:\study\karan\practical\DotNet Technology\Asp.net\ManagemantSystem\ManagemantSystem\bin\Debug\netcoreapp1.1\ManagemantSystem.pdb

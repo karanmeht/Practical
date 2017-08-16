@@ -1,0 +1,9 @@
+E:\study\karan\practical\C#\CSharpAssignment\StringDataType\bin\Debug\netcoreapp1.1\StringDataType.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\StringDataType\bin\Debug\netcoreapp1.1\StringDataType.runtimeconfig.json
+E:\study\karan\practical\C#\CSharpAssignment\StringDataType\bin\Debug\netcoreapp1.1\StringDataType.runtimeconfig.dev.json
+E:\study\karan\practical\C#\CSharpAssignment\StringDataType\bin\Debug\netcoreapp1.1\StringDataType.dll
+E:\study\karan\practical\C#\CSharpAssignment\StringDataType\bin\Debug\netcoreapp1.1\StringDataType.pdb
+E:\study\karan\practical\C#\CSharpAssignment\StringDataType\obj\Debug\netcoreapp1.1\StringDataType.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\StringDataType\obj\Debug\netcoreapp1.1\StringDataType.dll
+E:\study\karan\practical\C#\CSharpAssignment\StringDataType\obj\Debug\netcoreapp1.1\StringDataType.pdb
+E:\study\karan\practical\C#\CSharpAssignment\StringDataType\obj\Debug\netcoreapp1.1\StringDataType.csprojResolveAssemblyReference.cache

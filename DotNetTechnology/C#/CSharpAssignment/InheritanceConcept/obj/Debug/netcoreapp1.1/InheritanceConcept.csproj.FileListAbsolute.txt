@@ -1,0 +1,8 @@
+E:\study\karan\practical\C#\CSharpAssignment\InheritanceConcept\bin\Debug\netcoreapp1.1\InheritanceConcept.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\InheritanceConcept\bin\Debug\netcoreapp1.1\InheritanceConcept.runtimeconfig.json
+E:\study\karan\practical\C#\CSharpAssignment\InheritanceConcept\bin\Debug\netcoreapp1.1\InheritanceConcept.runtimeconfig.dev.json
+E:\study\karan\practical\C#\CSharpAssignment\InheritanceConcept\bin\Debug\netcoreapp1.1\InheritanceConcept.dll
+E:\study\karan\practical\C#\CSharpAssignment\InheritanceConcept\bin\Debug\netcoreapp1.1\InheritanceConcept.pdb
+E:\study\karan\practical\C#\CSharpAssignment\InheritanceConcept\obj\Debug\netcoreapp1.1\InheritanceConcept.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\InheritanceConcept\obj\Debug\netcoreapp1.1\InheritanceConcept.dll
+E:\study\karan\practical\C#\CSharpAssignment\InheritanceConcept\obj\Debug\netcoreapp1.1\InheritanceConcept.pdb

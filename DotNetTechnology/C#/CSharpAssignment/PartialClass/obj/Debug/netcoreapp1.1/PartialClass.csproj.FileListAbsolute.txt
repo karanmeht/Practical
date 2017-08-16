@@ -1,0 +1,8 @@
+E:\study\karan\practical\C#\CSharpAssignment\PartialClass\bin\Debug\netcoreapp1.1\PartialClass.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\PartialClass\bin\Debug\netcoreapp1.1\PartialClass.runtimeconfig.json
+E:\study\karan\practical\C#\CSharpAssignment\PartialClass\bin\Debug\netcoreapp1.1\PartialClass.runtimeconfig.dev.json
+E:\study\karan\practical\C#\CSharpAssignment\PartialClass\bin\Debug\netcoreapp1.1\PartialClass.dll
+E:\study\karan\practical\C#\CSharpAssignment\PartialClass\bin\Debug\netcoreapp1.1\PartialClass.pdb
+E:\study\karan\practical\C#\CSharpAssignment\PartialClass\obj\Debug\netcoreapp1.1\PartialClass.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\PartialClass\obj\Debug\netcoreapp1.1\PartialClass.dll
+E:\study\karan\practical\C#\CSharpAssignment\PartialClass\obj\Debug\netcoreapp1.1\PartialClass.pdb

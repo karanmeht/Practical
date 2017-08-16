@@ -1,0 +1,9 @@
+E:\study\karan\practical\C#\CSharpAssignment\ReadingAndWritingToConsole\bin\Debug\netcoreapp1.1\ReadingAndWritingToConsole.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\ReadingAndWritingToConsole\bin\Debug\netcoreapp1.1\ReadingAndWritingToConsole.runtimeconfig.json
+E:\study\karan\practical\C#\CSharpAssignment\ReadingAndWritingToConsole\bin\Debug\netcoreapp1.1\ReadingAndWritingToConsole.runtimeconfig.dev.json
+E:\study\karan\practical\C#\CSharpAssignment\ReadingAndWritingToConsole\bin\Debug\netcoreapp1.1\ReadingAndWritingToConsole.dll
+E:\study\karan\practical\C#\CSharpAssignment\ReadingAndWritingToConsole\bin\Debug\netcoreapp1.1\ReadingAndWritingToConsole.pdb
+E:\study\karan\practical\C#\CSharpAssignment\ReadingAndWritingToConsole\obj\Debug\netcoreapp1.1\ReadingAndWritingToConsole.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\C#\CSharpAssignment\ReadingAndWritingToConsole\obj\Debug\netcoreapp1.1\ReadingAndWritingToConsole.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\ReadingAndWritingToConsole\obj\Debug\netcoreapp1.1\ReadingAndWritingToConsole.dll
+E:\study\karan\practical\C#\CSharpAssignment\ReadingAndWritingToConsole\obj\Debug\netcoreapp1.1\ReadingAndWritingToConsole.pdb

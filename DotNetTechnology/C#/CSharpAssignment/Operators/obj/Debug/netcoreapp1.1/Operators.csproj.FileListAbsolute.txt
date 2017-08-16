@@ -1,0 +1,9 @@
+E:\study\karan\practical\C#\CSharpAssignment\Operators\bin\Debug\netcoreapp1.1\Operators.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\Operators\bin\Debug\netcoreapp1.1\Operators.runtimeconfig.json
+E:\study\karan\practical\C#\CSharpAssignment\Operators\bin\Debug\netcoreapp1.1\Operators.runtimeconfig.dev.json
+E:\study\karan\practical\C#\CSharpAssignment\Operators\bin\Debug\netcoreapp1.1\Operators.dll
+E:\study\karan\practical\C#\CSharpAssignment\Operators\bin\Debug\netcoreapp1.1\Operators.pdb
+E:\study\karan\practical\C#\CSharpAssignment\Operators\obj\Debug\netcoreapp1.1\Operators.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\Operators\obj\Debug\netcoreapp1.1\Operators.dll
+E:\study\karan\practical\C#\CSharpAssignment\Operators\obj\Debug\netcoreapp1.1\Operators.pdb
+E:\study\karan\practical\C#\CSharpAssignment\Operators\obj\Debug\netcoreapp1.1\Operators.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+E:\study\karan\practical\C#\CSharpAssignment\InterfaceConcept\bin\Debug\netcoreapp1.1\InterfaceConcept.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\InterfaceConcept\bin\Debug\netcoreapp1.1\InterfaceConcept.runtimeconfig.json
+E:\study\karan\practical\C#\CSharpAssignment\InterfaceConcept\bin\Debug\netcoreapp1.1\InterfaceConcept.runtimeconfig.dev.json
+E:\study\karan\practical\C#\CSharpAssignment\InterfaceConcept\bin\Debug\netcoreapp1.1\InterfaceConcept.dll
+E:\study\karan\practical\C#\CSharpAssignment\InterfaceConcept\bin\Debug\netcoreapp1.1\InterfaceConcept.pdb
+E:\study\karan\practical\C#\CSharpAssignment\InterfaceConcept\obj\Debug\netcoreapp1.1\InterfaceConcept.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\InterfaceConcept\obj\Debug\netcoreapp1.1\InterfaceConcept.dll
+E:\study\karan\practical\C#\CSharpAssignment\InterfaceConcept\obj\Debug\netcoreapp1.1\InterfaceConcept.pdb

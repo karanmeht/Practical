@@ -1,0 +1,61 @@
+﻿@model RegistrationViewModel
+
+<form method="post" asp-controller="Account" asp-action="Registration">
+    <table border="1">
+        <thead>
+            <tr>
+                <td colspan="3" style="font-size:xx-large"> Registration </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>First Name</td>
+                <td>
+                    <input asp-for="FirstName" />
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Last Name</td>
+                <td>
+                    <input asp-for="LastName" />
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Date of Birth</td>
+                <td>
+                    <input asp-for="DOB" />
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input asp-for="Email" />
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input asp-for="Password" />
+                </td>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td>Phone Number</td>
+                <td>
+                    <input asp-for="PhoneNumber" />
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="font-size:x-large">
+                    <button type="submit">Registration</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>

@@ -1,0 +1,8 @@
+E:\study\karan\practical\C#\CSharpAssignment\SwitchStatement\bin\Debug\netcoreapp1.1\SwitchStatement.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\SwitchStatement\bin\Debug\netcoreapp1.1\SwitchStatement.runtimeconfig.json
+E:\study\karan\practical\C#\CSharpAssignment\SwitchStatement\bin\Debug\netcoreapp1.1\SwitchStatement.runtimeconfig.dev.json
+E:\study\karan\practical\C#\CSharpAssignment\SwitchStatement\bin\Debug\netcoreapp1.1\SwitchStatement.dll
+E:\study\karan\practical\C#\CSharpAssignment\SwitchStatement\bin\Debug\netcoreapp1.1\SwitchStatement.pdb
+E:\study\karan\practical\C#\CSharpAssignment\SwitchStatement\obj\Debug\netcoreapp1.1\SwitchStatement.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\SwitchStatement\obj\Debug\netcoreapp1.1\SwitchStatement.dll
+E:\study\karan\practical\C#\CSharpAssignment\SwitchStatement\obj\Debug\netcoreapp1.1\SwitchStatement.pdb

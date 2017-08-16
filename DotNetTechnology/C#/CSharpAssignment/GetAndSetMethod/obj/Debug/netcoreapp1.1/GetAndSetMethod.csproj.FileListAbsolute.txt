@@ -1,0 +1,8 @@
+E:\study\karan\practical\C#\CSharpAssignment\GetAndSetMethod\bin\Debug\netcoreapp1.1\GetAndSetMethod.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\GetAndSetMethod\bin\Debug\netcoreapp1.1\GetAndSetMethod.runtimeconfig.json
+E:\study\karan\practical\C#\CSharpAssignment\GetAndSetMethod\bin\Debug\netcoreapp1.1\GetAndSetMethod.runtimeconfig.dev.json
+E:\study\karan\practical\C#\CSharpAssignment\GetAndSetMethod\bin\Debug\netcoreapp1.1\GetAndSetMethod.dll
+E:\study\karan\practical\C#\CSharpAssignment\GetAndSetMethod\bin\Debug\netcoreapp1.1\GetAndSetMethod.pdb
+E:\study\karan\practical\C#\CSharpAssignment\GetAndSetMethod\obj\Debug\netcoreapp1.1\GetAndSetMethod.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\GetAndSetMethod\obj\Debug\netcoreapp1.1\GetAndSetMethod.dll
+E:\study\karan\practical\C#\CSharpAssignment\GetAndSetMethod\obj\Debug\netcoreapp1.1\GetAndSetMethod.pdb

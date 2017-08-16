@@ -1,0 +1,9 @@
+E:\study\karan\practical\C#\CSharpAssignment\CSharpAssignment\bin\Debug\netcoreapp1.1\CSharpAssignment.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\CSharpAssignment\bin\Debug\netcoreapp1.1\CSharpAssignment.runtimeconfig.json
+E:\study\karan\practical\C#\CSharpAssignment\CSharpAssignment\bin\Debug\netcoreapp1.1\CSharpAssignment.runtimeconfig.dev.json
+E:\study\karan\practical\C#\CSharpAssignment\CSharpAssignment\bin\Debug\netcoreapp1.1\CSharpAssignment.dll
+E:\study\karan\practical\C#\CSharpAssignment\CSharpAssignment\bin\Debug\netcoreapp1.1\CSharpAssignment.pdb
+E:\study\karan\practical\C#\CSharpAssignment\CSharpAssignment\obj\Debug\netcoreapp1.1\CSharpAssignment.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\CSharpAssignment\obj\Debug\netcoreapp1.1\CSharpAssignment.dll
+E:\study\karan\practical\C#\CSharpAssignment\CSharpAssignment\obj\Debug\netcoreapp1.1\CSharpAssignment.pdb
+E:\study\karan\practical\C#\CSharpAssignment\CSharpAssignment\obj\Debug\netcoreapp1.1\CSharpAssignment.csprojResolveAssemblyReference.cache

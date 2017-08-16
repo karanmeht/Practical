@@ -1,0 +1,30 @@
+﻿@model LoginViewModel
+
+<form method="post" asp-controller="Account" asp-action="Login" asp-route-returnUrl="@ViewData["ReturnUrl"]">
+   <div asp-validation-summary="All"></div>
+    <table border="1">
+        <tr>
+            <td colspan="3" style="font-size:xx-large">Login</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input asp-for="Email" /></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input asp-for="Password" /></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input asp-for="RememberMe" /></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3" style="font-size:large">
+                <button type="submit">Login</button>
+            </td>
+        </tr>
+    </table>
+</form>

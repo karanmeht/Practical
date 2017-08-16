@@ -1,0 +1,8 @@
+E:\study\karan\practical\C#\CSharpAssignment\AtrributeConcept\bin\Debug\netcoreapp1.1\AtrributeConcept.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\AtrributeConcept\bin\Debug\netcoreapp1.1\AtrributeConcept.runtimeconfig.json
+E:\study\karan\practical\C#\CSharpAssignment\AtrributeConcept\bin\Debug\netcoreapp1.1\AtrributeConcept.runtimeconfig.dev.json
+E:\study\karan\practical\C#\CSharpAssignment\AtrributeConcept\bin\Debug\netcoreapp1.1\AtrributeConcept.dll
+E:\study\karan\practical\C#\CSharpAssignment\AtrributeConcept\bin\Debug\netcoreapp1.1\AtrributeConcept.pdb
+E:\study\karan\practical\C#\CSharpAssignment\AtrributeConcept\obj\Debug\netcoreapp1.1\AtrributeConcept.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\AtrributeConcept\obj\Debug\netcoreapp1.1\AtrributeConcept.dll
+E:\study\karan\practical\C#\CSharpAssignment\AtrributeConcept\obj\Debug\netcoreapp1.1\AtrributeConcept.pdb

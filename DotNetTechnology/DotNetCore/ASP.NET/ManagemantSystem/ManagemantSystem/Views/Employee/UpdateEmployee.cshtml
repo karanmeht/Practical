@@ -1,0 +1,69 @@
+﻿@model Employee
+
+<h2>Update Employee</h2>
+
+<form asp-controller="Employee" asp-action="UpdateEmployee" asp-route-id="@Model.Id" method="post">
+    <table>
+        <tr>
+            <td><label asp-for="Id"   hidden></label></td>
+            <td><input asp-for="Id" value="@Model.Id" hidden /></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label asp-for="FirstName"></label></td>
+            <td><input asp-for="FirstName" value="@Model.FirstName" /></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label asp-for="LastName"></label></td>
+            <td><input asp-for="LastName" value="@Model.LastName" /></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label asp-for="Email"></label></td>
+            <td><input asp-for="Email" value="@Model.Email" /></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label asp-for="Gender"></label></td>
+            <td>
+                <select asp-for="Gender" autofocus="@Model.Gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label asp-for="Address"></label></td>
+            <td><input asp-for="Address" value="@Model.Address" /></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label asp-for="City"></label></td>
+            <td><input asp-for="City" value="@Model.City" /></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label asp-for="State"></label></td>
+            <td><input asp-for="State" value="@Model.State" /></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label asp-for="Country"></label></td>
+            <td><input asp-for="Country" value="@Model.Country" /></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><label asp-for="Phone"></label></td>
+            <td><input asp-for="Phone" value="@Model.Phone" /></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="3" align="center">
+                <input type="submit" value="Save" />
+            </td>
+        </tr>
+    </table>
+</form>

@@ -1,0 +1,8 @@
+E:\study\karan\practical\C#\CSharpAssignment\DelegateConcept\bin\Debug\netcoreapp1.1\DelegateConcept.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\DelegateConcept\bin\Debug\netcoreapp1.1\DelegateConcept.runtimeconfig.json
+E:\study\karan\practical\C#\CSharpAssignment\DelegateConcept\bin\Debug\netcoreapp1.1\DelegateConcept.runtimeconfig.dev.json
+E:\study\karan\practical\C#\CSharpAssignment\DelegateConcept\bin\Debug\netcoreapp1.1\DelegateConcept.dll
+E:\study\karan\practical\C#\CSharpAssignment\DelegateConcept\bin\Debug\netcoreapp1.1\DelegateConcept.pdb
+E:\study\karan\practical\C#\CSharpAssignment\DelegateConcept\obj\Debug\netcoreapp1.1\DelegateConcept.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\DelegateConcept\obj\Debug\netcoreapp1.1\DelegateConcept.dll
+E:\study\karan\practical\C#\CSharpAssignment\DelegateConcept\obj\Debug\netcoreapp1.1\DelegateConcept.pdb

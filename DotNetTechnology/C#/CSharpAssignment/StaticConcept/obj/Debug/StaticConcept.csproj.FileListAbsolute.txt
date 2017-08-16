@@ -1,0 +1,6 @@
+E:\study\karan\practical\C#\CSharpAssignment\StaticConcept\bin\Debug\StaticConcept.exe.config
+E:\study\karan\practical\C#\CSharpAssignment\StaticConcept\bin\Debug\StaticConcept.exe
+E:\study\karan\practical\C#\CSharpAssignment\StaticConcept\bin\Debug\StaticConcept.pdb
+E:\study\karan\practical\C#\CSharpAssignment\StaticConcept\obj\Debug\StaticConcept.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\C#\CSharpAssignment\StaticConcept\obj\Debug\StaticConcept.exe
+E:\study\karan\practical\C#\CSharpAssignment\StaticConcept\obj\Debug\StaticConcept.pdb

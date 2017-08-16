@@ -1,0 +1,59 @@
+﻿@model List<Employee>
+
+<h2>Dashboard page</h2>
+<form asp-controller="Employee" asp-action="GetSingleEmployee" method="get">
+    <input type="text" value="" id="Id" name="Id"/>
+    <button type="submit" value="Search">Search Employee</button>
+</form>
+<form asp-controller="Employee">
+    <table border="1">
+        <thead>
+            <tr>
+                <td colspan="12" align="right">
+                    <button type="submit" formmethod="get" asp-action="AddEmployeeView">Add Employee</button>
+                </td>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <th>FirstName</th>
+                <th>LastName</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>State</th>
+                <th>Country</th>
+                <th>Phone</th>
+                <th>CreateByUserId</th>
+                <th>Create Date Time</th>
+                <th>Update Date Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.FirstName</td>
+                    <td>@item.LastName</td>
+                    <td>@item.Email</td>
+                    <td>@item.Gender</td>
+                    <td>@item.Address</td>
+                    <td>@item.City</td>
+                    <td>@item.State</td>
+                    <td>@item.Country</td>
+                    <td>@item.Phone</td>
+                    <td>@item.CreateByUserId</td>
+                    <td>@item.CreateDateTime</td>
+                    <td>@item.UpdateDateTime</td>
+                    <td>
+                        <button type="submit" formmethod="post" asp-action="DeleteEmployee" asp-route-id="@item.Id">Delete</button>
+                    </td>
+                    <td>
+                        <button type="submit" formmethod="get" asp-action="UpdateEmployeeViewAsync" asp-route-id="@item.Id">Update</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>

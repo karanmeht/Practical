@@ -1,0 +1,8 @@
+E:\study\karan\practical\C#\CSharpAssignment\Methods\bin\Debug\netcoreapp1.1\Methods.deps.json
+E:\study\karan\practical\C#\CSharpAssignment\Methods\bin\Debug\netcoreapp1.1\Methods.runtimeconfig.json
+E:\study\karan\practical\C#\CSharpAssignment\Methods\bin\Debug\netcoreapp1.1\Methods.runtimeconfig.dev.json
+E:\study\karan\practical\C#\CSharpAssignment\Methods\bin\Debug\netcoreapp1.1\Methods.dll
+E:\study\karan\practical\C#\CSharpAssignment\Methods\bin\Debug\netcoreapp1.1\Methods.pdb
+E:\study\karan\practical\C#\CSharpAssignment\Methods\obj\Debug\netcoreapp1.1\Methods.AssemblyInfo.cs
+E:\study\karan\practical\C#\CSharpAssignment\Methods\obj\Debug\netcoreapp1.1\Methods.dll
+E:\study\karan\practical\C#\CSharpAssignment\Methods\obj\Debug\netcoreapp1.1\Methods.pdb
