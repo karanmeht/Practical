@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Operators Example</title>
+    <script>
+        var person = { firstName: "John", lastName: "Doe", age: 50, eyeColor: "blue" };
+        var cars = ["Saab", "Volvo", "BMW"];
+        function InFunction() {
+            var temp =
+                // Arrays
+                "(\"Saab\" in cars)   :: " + ("Saab" in cars) + "<br>" +
+                "(0 in cars):: " + (0 in cars) + "<br>" +
+                "(1 in cars) :: " + (1 in cars) + "<br>" +
+                " (4 in cars) :: " + (4 in cars) + "<br>" +
+                "(\"length\" in cars :: " + ("length" in cars) + "<br>" +
+                // Objects
+                " (\"firstName\" in person):: " + ("firstName" in person) + "<br>" +
+                " (\"age\" in person) :: " + ("age" in person) + "<br>" +
+                // Predefined objects
+                " (\"PI\" in Math):: " + ("PI" in Math) + "<br>" +
+                "(\"NaN\" in Number) :: " + ("NaN" in Number) + "<br>" +
+                "(\"length\" in String) :: " + ("length" in String);
+
+            temp = "cars  Array :: " + cars + "<br /> person object :: " + JSON.stringify(person) + "<br />" + temp;
+            return temp;
+        }
+        function typeOfFunction() {
+            var typeOfTemp = "John :: " + typeof "John" + "<br>" +
+                "3.14 :: " + typeof 3.14 + "<br>" +
+                "NaN :: " + typeof NaN + "<br>" +
+                "bool :: " + typeof false + "<br>" +
+                "[1, 2, 3, 4] :: " + typeof [1, 2, 3, 4] + "<br>" +
+                "{name:'John', age:34} :: " + typeof { name: 'John', age: 34 } + "<br>" +
+                "new Date() :: " + typeof new Date() + "<br>" +
+                "function () {} :: " + typeof function () { } + "<br>" +
+                "myCar :: " + typeof myCar + "<br>" +
+                "null :: " + typeof null;
+            return typeOfTemp;
+        }
+
+        function runJs() {
+            // typeOf  Operator
+            // document.getElementById("typeofDemo").innerHTML = typeOfFunction();
+            document.getElementById("typeofDemo").innerHTML = typeof "karan";
+
+            // delete operator
+            document.getElementById("deleteDemo").innerHTML = delete person.age;
+
+            // in operator
+            document.getElementById("inDemo").innerHTML = InFunction();
+
+            // instanceOf operator
+            document.getElementById("instanceOfDemo").innerHTML =
+                "(cars instanceof Array) :: " + (cars instanceof Array) + "<br>" +
+                "(cars instanceof Object) :: " + (cars instanceof Object) + "<br>" +
+                "(cars instanceof String) :: " + (cars instanceof String) + "<br>" +
+                "(cars instanceof Number) :: " + (cars instanceof Number);
+        }
+    </script>
+</head>
+
+<body onload="runJs()">
+    <h1> Operators Example</h1>
+    <hr>
+    <hr>
+    <p>
+        <h3>typeof operator</h3>
+        The typeof operator returns the type of a variable, object, function or expression:
+    </p>
+    <h4 id="typeofDemo"> </h4>
+
+    <p>
+        <h3>Delete Operator</h3>
+        <typeof operators/h3>The delete operator deletes both the value of the property and the property itself.
+            <br /> After deletion, the property cannot be used before it is added back again.
+            <br /> The delete operator is designed to be used on object properties. It has no effect on variables or functions.
+    </p>
+    <h4 id="deleteDemo"> </h4>
+
+    <p>
+        <h3> in operator</h3>
+        The in operator returns true if the specified property is in the specified object, otherwise false:
+    </p>
+    <h4 id="inDemo"></h4>
+
+    <p>
+        <h3>instanceOf operator </h3>
+        The instanceof operator returns true if the specified object is an instance of the specified object.
+    </p>
+    <h4 id="instanceOfDemo"></h4>
+
+    <p>
+        <h3>Void Operator</h3>
+        The void operator evaluates an expression and returns undefined. This operator is often used to obtain the undefined primitive
+        value, using "void(0)" (useful when evaluating an expression without using the return value).
+        <a href="javascript:void(0);">  Useless link</a><br />
+        <a href="javascript:void(document.body.style.backgroundColor='red');"> Click me to change the background color of body to red </a><br />
+        <a href="javascript:void(document.body.style.backgroundColor='white');"> Click me to change the background color of body to white </a>
+    </p>
+
+
+</body>
+
+</htl>

@@ -1,0 +1,88 @@
+﻿@model ManagementSystem.Models.Employee.Employee
+  
+<script>
+    document.getElementById("dob").nodeValue =@ViewBag.dob
+</script>
+@using (Html.BeginForm("UpdateEmployee", "Employee", FormMethod.Post, new { enctype = "multipart/form-data", onsubmit = "return createUser()" }))
+{
+    @Html.AntiForgeryToken()
+    @*<form method="post" action="@Model.Id">*@
+    @Html.HiddenFor(model => model.Id)
+    <table align="center">
+        <thead>
+            <tr>
+                <td colspan="3" class="text-center h3">Update Employee</td>
+            </tr>
+        </thead>
+        <tbody>
+            @Html.HiddenFor(model => model.CreateDateTime)
+            @Html.HiddenFor(model => model.UpdateDateTime)
+            <tr>
+                <td>
+                    @Html.LabelFor(model => model.Name)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.Name)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.Name)
+                    <label id="msgName" class="text-danger"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(model => model.Age)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.Age)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.Age)
+                    <label id="msgAge" class="text-danger"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(model => model.DateOfBirth)
+                </td>
+                <td>
+                    <input type="date" id="dob"name="DateOfBirth" value="@ViewBag.dob" class="input-group date"/>
+                    @*@Html.EditorFor(model => model.DateOfBirth)*@
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.DateOfBirth)
+                    <label id="msgDob" class="text-danger"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(model => model.Phone)
+                </td>
+                <td>
+                    @Html.EditorFor(model => model.Phone)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.Phone)
+                    <label id="msgPhone" class="text-danger"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    @Html.LabelFor(model => model.Country)
+                </td>
+                <td>
+                    @Html.EnumDropDownListFor(model => model.Country)
+                </td>
+                <td>
+                    @Html.ValidationMessageFor(model => model.Country)
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <button type="submit" class="btn-primary">Update</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    @*</form>*@
+}

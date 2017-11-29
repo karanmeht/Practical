@@ -1,0 +1,9 @@
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DictionaryConcept\bin\Debug\netcoreapp1.1\DictionaryConcept.deps.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DictionaryConcept\bin\Debug\netcoreapp1.1\DictionaryConcept.runtimeconfig.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DictionaryConcept\bin\Debug\netcoreapp1.1\DictionaryConcept.runtimeconfig.dev.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DictionaryConcept\bin\Debug\netcoreapp1.1\DictionaryConcept.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DictionaryConcept\bin\Debug\netcoreapp1.1\DictionaryConcept.pdb
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DictionaryConcept\obj\Debug\netcoreapp1.1\DictionaryConcept.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DictionaryConcept\obj\Debug\netcoreapp1.1\DictionaryConcept.AssemblyInfo.cs
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DictionaryConcept\obj\Debug\netcoreapp1.1\DictionaryConcept.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DictionaryConcept\obj\Debug\netcoreapp1.1\DictionaryConcept.pdb

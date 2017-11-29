@@ -6,3 +6,11 @@ E:\study\karan\practical\C#\CSharpAssignment\DatatypeConversions\bin\Debug\netco
 E:\study\karan\practical\C#\CSharpAssignment\DatatypeConversions\obj\Debug\netcoreapp1.1\DatatypeConversions.AssemblyInfo.cs
 E:\study\karan\practical\C#\CSharpAssignment\DatatypeConversions\obj\Debug\netcoreapp1.1\DatatypeConversions.dll
 E:\study\karan\practical\C#\CSharpAssignment\DatatypeConversions\obj\Debug\netcoreapp1.1\DatatypeConversions.pdb
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DatatypeConversions\bin\Debug\netcoreapp1.1\DatatypeConversions.deps.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DatatypeConversions\bin\Debug\netcoreapp1.1\DatatypeConversions.runtimeconfig.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DatatypeConversions\bin\Debug\netcoreapp1.1\DatatypeConversions.runtimeconfig.dev.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DatatypeConversions\bin\Debug\netcoreapp1.1\DatatypeConversions.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DatatypeConversions\bin\Debug\netcoreapp1.1\DatatypeConversions.pdb
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DatatypeConversions\obj\Debug\netcoreapp1.1\DatatypeConversions.AssemblyInfo.cs
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DatatypeConversions\obj\Debug\netcoreapp1.1\DatatypeConversions.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\DatatypeConversions\obj\Debug\netcoreapp1.1\DatatypeConversions.pdb

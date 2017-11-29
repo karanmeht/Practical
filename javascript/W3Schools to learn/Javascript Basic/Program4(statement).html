@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Statement Example</title>
+    <script>
+        function forBreakFunction() {
+            var text = "For Break Function <br />"
+            var i;
+            for (i = 1; i <= 5; i++) {
+                if (i === 3) {
+                    continue;
+                }
+                if (i === 5) {
+                    break;
+                }
+                text += "The number is " + i + "<br>";
+            }
+            return text;
+        }
+
+        function doWhileFunction() {
+            var text = "Do while loop <br />";
+            var i = 1;
+            do {
+                text += "The number is " + i + "<br />";
+                i++;
+            }
+            while (i <= 5);
+            return text;
+        }
+
+        function forInFunction() {
+            var person = { fname: "John", lname: "Doe", age: 25 };
+
+            var text = "";
+            var x;
+            for (x in person) {
+                text += person[x] + "<br />";
+            }
+            return text;
+        }
+
+        function switchFunction() {
+            var text;
+            var fruits = document.getElementById("myInput").value;
+
+            switch (fruits) {
+                case "Banana":
+                    text = "Banana is good!";
+                    break;
+                case "Orange":
+                    text = "I am not a fan of orange.";
+                    break;
+                case "Apple":
+                    text = "How you like them apples?";
+                    break;
+                default:
+                    text = "I have never heard of that fruit...";
+                    break;
+            }
+            return text;
+        }
+        function WhileFunction() {
+            var text = "while loop <br />";
+            var i = 1;
+            while (i <= 5) {
+                text += "<br>The number is " + i;
+                i++;
+            }
+            return text;
+        }
+        function switchOutputFunction() {
+            //switch statement
+            document.getElementById("switchDemo").innerHTML = switchFunction();
+        }
+        function exceptionFunction() {
+            var errorMessage, x;
+            errorMessage = document.getElementById("exceptionDemo");
+            errorMessage.innerHTML = "";
+            x = document.getElementById("message").value;
+            try {
+                if (x == "") throw "is Empty";
+                if (isNaN(x)) throw "not a number";
+                if (x > 10) throw "too high";
+                if (x < 5) throw "too low";
+            }
+            catch (err) {
+                errorMessage.innerHTML = "Input " + err;
+            }
+            finally {
+                document.getElementById("message").value = "";
+            }
+        }
+
+        function runJs() {
+            // Break,continue and for loop statement
+            document.getElementById("breakDemo").innerHTML = forBreakFunction();
+
+            // Do While loop statement
+            document.getElementById("doWhilekDemo").innerHTML = doWhileFunction();
+
+            // For in loop statement
+            document.getElementById("forInDemo").innerHTML = forInFunction();
+
+            // while loop statement
+            document.getElementById("whileDemo").innerHTML = WhileFunction();
+
+        }
+    </script>
+</head>
+
+<body onload="runJs()">
+    <h1> Statement Example</h1>
+    <hr>
+    <hr>
+    <p>
+        <h3> Break Statement </h3>
+        The break statement exits a switch statement or a loop (for, for ... in, while, do ... while).
+        <br /> When the break statement is used with a switch statement, it breaks out of the switch block. This will stop
+        the execution of more execution of code and/or case testing inside the block.
+        <br /> When the break statement is used in a loop, it breaks the loop and continues executing the code after the
+        loop (if any).
+        <br /> The break statement can also be used with an optional label reference, to "jump out" of any JavaScript code
+        block
+    </p>
+    <h4 id="breakDemo"></h4>
+
+    <p>
+        <h3>Do while loop</h3>
+        The do/while statement creates a loop that executes a block of code once, before checking if the condition is true, then
+        it will repeat the loop as long as the condition is true.
+        <br /> The do/while statement is used when you want to run a loop at least one time, no matter what.
+    </p>
+    <h4 id="doWhilekDemo"></h4>
+
+    <p>
+        <h3>For In Loop</h3>
+        The for/in statement loops through the properties of an object.
+        <br /> The block of code inside the loop will be executed once for each property.
+    </p>
+    <h4 id="forInDemo"></h4>
+
+    <p>
+        <h3>while loop</h3>
+        The while statement creates a loop that is executed while a specified condition is true.
+        <br /> The loop will continue to run as long as the condition is true. It will only stop when the condition becomes
+        false.
+    </p>
+    <h4 id="whileDemo"></h4>
+
+    <p>
+        <h3> switch Statement</h3>
+        The switch statement executes a block of code depending on different cases. The switch statement is a part of JavaScript's
+        "Conditional" Statements, which are used to perform different actions based on different conditions. Use switch to
+        select one of many blocks of code to be executed. This is the perfect solution for long, nested if/else statements.
+        <br /> The switch statement evaluates an expression. The value of the expression is then compared with the values
+        of each case in the structure. If there is a match, the associated block of code is executed.
+        <br /> The switch statement is often used together with a break or a default keyword (or both). These are both optional:
+        <br /> The break keyword breaks out of the switch block. This will stop the execution of more execution of code and/or
+        case testing inside the block. If break is omitted, the next code block in the switch statement is executed.
+        <br /> The default keyword specifies some code to run if there is no case match. There can only be one default keyword
+        in a switch. Although this is optional, it is recommended that you use it, as it takes care of unexpected cases.
+    </p>
+    <p>my favorite fruits is Banana,Orange,Apple</p>
+    <p>Enter Your favorite fruit <input type="text" size="20" id="myInput" value=""> <button onclick="switchOutputFunction()">submit</button>
+        <h4 id="switchDemo"></h4>
+
+        <p></p>
+        <p>Please input a number between 5 and 10:<input type="text" size="20" id="message" value=""> <button onclick="exceptionFunction()">submit</button>
+
+            <h4 id="exceptionDemo"></h4>
+</body>
+
+</html>

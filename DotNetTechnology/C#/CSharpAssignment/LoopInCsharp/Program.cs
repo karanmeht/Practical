@@ -48,12 +48,16 @@ namespace LoopInCsharp
                     }
                 } while (UserChoice != "YES" && UserChoice != "NO");
             } while (UserChoice == "YES");
+            //Console.WriteLine(true & true);
+            //Console.WriteLine(true & false);
+            //Console.WriteLine(false & true);
+            //Console.WriteLine(false & false);
             */
             #endregion
 
             #region for loop
-            
-             int[] Number = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            int[] Number = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
             for (int i = 0; i < Number.Length; i++)
             {
                 Console.WriteLine(Number[i]);

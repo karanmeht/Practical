@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript">
+
+	// join method use only Array
+	var people = new Array("karan","pranav","ravi","amit","prakash","sandip");
+	var str = people.join(); // join method work is join the Array Element using diffrent sign
+	var str1 = people.join(" - ");
+	document.write("<h2> Example of join</h2><br />"  +str + "<br />" + str1);
+	document.write("<br />"+people[3] + "<br />");
+	
+	// pop method
+	people.pop(); // last array remove
+	document.write("<br /> <h2> Example of pop </h2> <br /> " + people[5] + "<br />");
+	document.write(people[4] + "<br>");
+	people.pop();
+	document.write(people[4]);
+	
+	//revearse,push,sort method
+	
+	people.reverse();
+	people.push("vijay");
+	people.sort();
+	var j = people.join();
+	document.write("<br /><h2>Example of reverse,push and sorting of Arreay</h2><br />"+j);
+	
+</script>
+</body>
+</html>

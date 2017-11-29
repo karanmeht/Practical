@@ -1,0 +1,36 @@
+body {font-family: Arial, sans-serif; margin:0;}
+#ad {
+    display: block;
+    border: solid 1px #333;
+    overflow: hidden;
+    width: 158px;
+    height: 598px;
+		background-color:#000;
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#banner {
+    position: absolute;
+    display: block;
+    width: 158px;
+    height: 598px;
+    background: url("../images/bg.jpg") 0 0 no-repeat #000;
+    overflow: hidden;
+}
+.btn {
+    position: absolute;
+    top:317px;
+    left:41px;
+		width:83px; 
+		height:19px;
+		z-index:11;
+		background: url("../images/button.png") 0 0 no-repeat;
+}
+.buttons .button {height:100%; width:100%; background:none; border:none; font-size:0; z-index:20; position:absolute;  top:0; left:0; cursor:pointer; padding:0;}
+.buttons .button:hover, .buttons .button:focus {outline:0 !important; border:none;}
+.logo {background:url("../images/logo.png") no-repeat 0 0; width:47px; height:47px; position:absolute; top:18px; left:55px; z-index:10;}
+.offers {background:url("../images/offer.png") no-repeat 0 0; width:141px; height:219px; position:absolute; top:82px; left:10px; z-index:10;}
+.pizza {background:url("../images/pizza.jpg") no-repeat 0 0; width:160px; height:259px; position:absolute; bottom:0; left:0; z-index:1;}

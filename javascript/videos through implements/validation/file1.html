@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+
+    var y = document.forms["myForm"]["pwd"].value;
+    if(x=="")
+    {
+        document.getElementById("error").innerHTML="Enter User name";
+        return false;
+    }
+    else if(y=="")
+    {
+        document.getElementById("error").innerHTML="Enter password";
+        return false;
+    }
+    else
+    {
+        document.getElementById("error").innerHTML="";
+        return true;
+    }
+//     if (x=="" || y == "") {
+//         //alert("Name must be filled out");
+// document.getElementById("error").innerHTML="error msg";
+//         return false;
+//     }
+}
+</script>
+</head>
+<body>
+
+<form name="myForm" action="file2.html"
+onsubmit="return validateForm()" method="post">
+User Name: <input type="text" name="fname">
+password: <input type="<password></password>" name="pwd">
+<input type="submit" value="Submit">
+<p id="error" style="color:red"></p>
+<!--<input id="image" type="image" src="Submit-To-Tick-Button-Animation.gif" width="25%">-->
+
+</form>
+
+</body>
+</html>

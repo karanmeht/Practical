@@ -7,3 +7,12 @@ E:\study\karan\practical\C#\CSharpAssignment\ListCollectionConcept\obj\Debug\net
 E:\study\karan\practical\C#\CSharpAssignment\ListCollectionConcept\obj\Debug\netcoreapp1.1\ListCollectionConcept.dll
 E:\study\karan\practical\C#\CSharpAssignment\ListCollectionConcept\obj\Debug\netcoreapp1.1\ListCollectionConcept.pdb
 E:\study\karan\practical\C#\CSharpAssignment\ListCollectionConcept\obj\Debug\netcoreapp1.1\ListCollectionConcept.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\ListCollectionConcept\bin\Debug\netcoreapp1.1\ListCollectionConcept.deps.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\ListCollectionConcept\bin\Debug\netcoreapp1.1\ListCollectionConcept.runtimeconfig.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\ListCollectionConcept\bin\Debug\netcoreapp1.1\ListCollectionConcept.runtimeconfig.dev.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\ListCollectionConcept\bin\Debug\netcoreapp1.1\ListCollectionConcept.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\ListCollectionConcept\bin\Debug\netcoreapp1.1\ListCollectionConcept.pdb
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\ListCollectionConcept\obj\Debug\netcoreapp1.1\ListCollectionConcept.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\ListCollectionConcept\obj\Debug\netcoreapp1.1\ListCollectionConcept.AssemblyInfo.cs
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\ListCollectionConcept\obj\Debug\netcoreapp1.1\ListCollectionConcept.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\ListCollectionConcept\obj\Debug\netcoreapp1.1\ListCollectionConcept.pdb

@@ -130,7 +130,7 @@ namespace ListCollectionConcept
 
             #region FindAll method
             Console.WriteLine("\n FindAll method");
-            List<Customer> customers = customer.FindAll(x => x.Salary < 50000);
+            List<Customer> customers = customer.FindAll(x => x.Salary < 50000 & x.Salary > 30000);
             foreach (Customer c in customers)
             {
                 Console.WriteLine("Id :: {0} \t Name :: {1} \t Salary :: {2}", c.Id, c.Name, c.Salary);
@@ -264,7 +264,7 @@ namespace ListCollectionConcept
             Console.WriteLine("We are provided more than 20000 salary  :: " + customer.TrueForAll(y => y.Salary > 20000));
             //Console.WriteLine("Cutomer salary between 20000 to 30000  :: " + customer.TrueForAll(y => y.Salary > 20000 && y.Salary < 30000));
             #endregion
-            
+
             Console.ReadKey();
         }
     }

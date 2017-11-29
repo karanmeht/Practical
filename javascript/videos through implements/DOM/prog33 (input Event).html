@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<script type="text/javascript">
+/*
+Input Events
+onblur - When a user leaves an input field. The onblur event is the opposite of the onfocus event. Tip: The onblur event is similar to the onfocusout event.
+onchange - When a user changes the content of an input field
+onchange - When a user selects a dropdown value
+onfocus - When an input field gets focus
+onselect - When input text is selected
+onsubmit - When a user clicks the submit button
+onreset - When a user clicks the reset button
+onkeydown - When a user is pressing/holding down a key
+onkeypress - When a user is pressing/holding down a key
+onkeyup - When the user releases a key
+onkeyup - When the user releases a key
+onkeydown vs onkeyup - Both
+*/
+
+	function on_blur()
+	{
+		var x = document.getElementById("blur");
+    	x.value = x.value.toUpperCase();
+	//}
+		var y = document.getElementById("c");
+	document.write(x.value+y.value);
+	}
+</script>
+
+</head>
+
+<body>
+<img src="13412995193326174505" border="0" width="728" alt="abc" >
+<p>When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
+onblur Event<input type="text" id="blur" onblur="on_blur()" />
+<input type="color" id="c" onblur="on_blur()"/>
+</body>
+</html>

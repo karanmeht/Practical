@@ -2,6 +2,7 @@ using System.Web.Mvc;
 using Microsoft.Practices.Unity;
 using Unity.Mvc3;
 using ManagementSystem.Repository.RepositoryEmployee;
+
 namespace ManagementSystem
 {
     public static class Bootstrapper
@@ -22,7 +23,6 @@ namespace ManagementSystem
 
             // e.g. container.RegisterType<ITestService, TestService>();            
             container.RegisterType<IRepositoryEmployee, RepositoryEmployee>();
-            
             return container;
         }
     }

@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ClientDetails>
+
+@{
+    int i = 1;
+    ViewBag.Title = "Home";
+}
+
+<form asp-controller="Home" method="post">
+    <a asp-action="Create" formmethod="get">Add Client</a>
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    #No
+                </th>
+                <th>
+                    Company Name
+                </th>
+                <th>
+                    Client Name
+                </th>
+                <th>
+                    Subscribe
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @(i++)
+                    </td>
+                    <td>
+                        @item.Company
+                    </td>
+                    <td>
+                        @item.Client
+                    </td>
+                    <td>
+                        <input asp-for="@item.NewsPaper" disabled />
+                    </td>
+                    <td>
+                        <a asp-action="Update" asp-route-id="@item.Id">Edit</a> | <a asp-action="Delete" asp-route-id="@item.Id" onclick="return ConfirmationOnDelete()">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript">
+	// one way to declare Array
+	
+	var people = new Array("karan","pranav","vaibhav"); // the keyword Array is "A" write Upercase
+	document.write(people[0] + "<br />");
+	document.write(people[2] + "<br />");
+	document.write(people[1] + "<br />");
+	
+	// second way to declare Array
+	
+	var thinking = new Array(3);
+	thinking[0] = "nice"; 
+	thinking[1] = "wonderfully";
+	thinking[2] = "awesome";
+	document.write(thinking[0] + "<br />");
+	document.write(thinking[1] + "<br />");
+	document.write(thinking[2] + "<br />");
+	
+	// third way to deaclare Array
+	
+	var a = new Array();
+	
+	a[0] = "hi....";
+	a[1] = "hello....";
+	document.write(a[0] + "<br />");
+	document.write(a[1] + "<br />");
+	
+	// Arrray properties 
+	
+	var p1 = people.concat(thinking);
+	var p2 = thinking.concat(people); 
+	
+	document.write("<br />" + p1[4]);
+	document.write("<br />" + p2[4]);
+	document.write("<br />length "+p1.length);
+	document.write("<br />length "+p2.length);
+	
+	</script>
+</body>
+</html>

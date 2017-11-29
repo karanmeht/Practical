@@ -7,3 +7,12 @@ E:\study\karan\practical\C#\CSharpAssignment\StructConcept\obj\Debug\netcoreapp1
 E:\study\karan\practical\C#\CSharpAssignment\StructConcept\obj\Debug\netcoreapp1.1\StructConcept.dll
 E:\study\karan\practical\C#\CSharpAssignment\StructConcept\obj\Debug\netcoreapp1.1\StructConcept.pdb
 E:\study\karan\practical\C#\CSharpAssignment\StructConcept\obj\Debug\netcoreapp1.1\StructConcept.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\StructConcept\bin\Debug\netcoreapp1.1\StructConcept.deps.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\StructConcept\bin\Debug\netcoreapp1.1\StructConcept.runtimeconfig.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\StructConcept\bin\Debug\netcoreapp1.1\StructConcept.runtimeconfig.dev.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\StructConcept\bin\Debug\netcoreapp1.1\StructConcept.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\StructConcept\bin\Debug\netcoreapp1.1\StructConcept.pdb
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\StructConcept\obj\Debug\netcoreapp1.1\StructConcept.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\StructConcept\obj\Debug\netcoreapp1.1\StructConcept.AssemblyInfo.cs
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\StructConcept\obj\Debug\netcoreapp1.1\StructConcept.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\StructConcept\obj\Debug\netcoreapp1.1\StructConcept.pdb

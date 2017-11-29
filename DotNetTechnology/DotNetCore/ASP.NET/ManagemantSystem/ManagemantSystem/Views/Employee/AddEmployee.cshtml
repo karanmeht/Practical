@@ -3,12 +3,13 @@
 <h2>Add Employee</h2>
 
 <form asp-controller="Employee" asp-action="AddEmployee" method="post">
+    @Html.ValidationSummary()
     <table>
 
         <tr>
             <td><label asp-for="FirstName"></label></td>
             <td><input asp-for="FirstName" /></td>
-            <td></td>
+            <td>@Html.ValidationMessageFor(Model=>Model.FirstName)</td>
         </tr>
         <tr>
             <td><label asp-for="LastName"></label></td>
@@ -23,12 +24,16 @@
         <tr>
             <td><label asp-for="Gender"></label></td>
             <td>
-                <select asp-for="Gender">
+                @*<select asp-for="Gender">
                     <option selected disabled>Select...</option>
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
                     <option value="Other">Other</option>
-                </select>
+                </select>*@
+                <select asp-for="Gender"
+                        asp-items="Html.GetEnumSelectList<Genders>()">
+                    >
+                </select> 
             </td>
             <td></td>
         </tr>

@@ -6,6 +6,7 @@ namespace ManagemantSystem.Models.Employee
 {
     public class Employee : BaseModel
     {
+        [Required]
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }

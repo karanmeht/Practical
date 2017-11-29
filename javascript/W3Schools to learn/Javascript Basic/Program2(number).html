@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Number Object</title>
+    <script>
+        function runJs() {
+            var n = 100;
+            var temp1 = "150";
+            // Constructor Property
+            document.getElementById("constructorDemo").innerHTML = n.constructor;
+
+            //Max Value Property
+            document.getElementById("maxValueDemo").innerHTML = Number.MAX_VALUE;
+
+            //Min Value Property
+            document.getElementById("minValueDemo").innerHTML = Number.MIN_VALUE;
+
+            //NEGATIVE_INFINITY Property
+            document.getElementById("negativeInfinityDemo").innerHTML = Number.NEGATIVE_INFINITY;
+
+            //Positive_Infinity Property
+            document.getElementById("positiveInfinityDemo").innerHTML = Number.POSITIVE_INFINITY;
+
+            // prototype Property
+            document.getElementById("prototypeDemo").innerHTML = "not completed";
+
+            // methods
+
+            //toExponential method
+            document.getElementById("toExponentialDemo").innerHTML = n.toExponential();
+
+            // toFixed(x) method
+            document.getElementById("toFixedDemo").innerHTML = n.toFixed(2);
+
+            // toPrecision(x) method
+            document.getElementById("toPrecisionDemo").innerHTML = n.toPrecision(3);
+
+            // toString() method
+            document.getElementById("toStringDemo").innerHTML = n.toString();
+
+            //valueOf() method
+            document.getElementById("valueOfDemo").innerHTML = n.valueOf();
+
+        }
+
+        function demo() {
+            var a = document.getElementById("divDemo").textContent;
+            var b = document.getElementById("div1Demo").textContent;
+            document.getElementById("div1Demo").innerHTML = a;
+            document.getElementById("divDemo").innerHTML = b;
+        }
+    </script>
+</head>
+
+<body onload="runJs()">
+    <h1>Number Object</h1>
+    <hr>
+    <hr>
+
+    <h2>Number Properties</h2>
+
+    <p>
+        <h3>Constructor Property</h3>Returns the function that created the Number object's prototype
+    </p>
+    <h4 id="constructorDemo"></h4>
+
+    <p>
+        <h3>MAX VALUE Property</h3>Returns the largest number possible in JavaScript
+    </p>
+    <h4 id="maxValueDemo"></h4>
+
+    <p>
+        <h3>MIN VALUE Property</h3>Returns the smallest number possible in JavaScript
+    </p>
+    <h4 id="minValueDemo"></h4>
+
+    <p>
+        <h3>NEGATIVE_INFINITY Property</h3>Represents negative infinity (returned on overflow)
+    </p>
+    <h4 id="negativeInfinityDemo"></h4>
+
+    <p>
+        <h3>POSITIVE_INFINITY Property</h3>Represents infinity (returned on overflow)
+    </p>
+    <h4 id="positiveInfinityDemo"></h4>
+
+    <p>
+        <h3>prototype Property</h3>Allows you to add properties and methods to an object
+    </p>
+    <h4 id="prototypeDemo"></h4>
+
+    <hr>
+
+    <h2> Number methods</h2>
+
+    <p>
+        <h3>toExponential(x) method</h3>Converts a number into an exponential notation
+    </p>
+    <h4 id="toExponentialDemo"></h4>
+
+    <p>
+        <h3>toFixed method</h3> Formats a number with x numbers of digits after the decimal point
+    </p>
+    <h4 id="toFixedDemo"></h4>
+
+    <p>
+        <h3>toPrecision method</h3> Formats a number to x length
+    </p>
+    <h4 id="toPrecisionDemo"></h4>
+
+    <p>
+        <h3>toString() method</h3> Converts a Number object to a string
+    </p>
+    <h4 id="toStringDemo"></h4>
+
+    <p>
+        <h3>valueOf() method</h3> Returns the primitive value of a Number object
+    </p>
+    <h4 id="valueOfDemo"></h4>
+
+    <div id="divDemo">a</div>
+    <div id="div1Demo">b</div>
+    <button onclick="demo()">demo</button>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+﻿@model ClientDetails
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<form asp-controller="Home" asp-action="Create" method="get"> 
+    <table border="1">
+        <tbody>
+            <tr>
+                <td>
+                    <label asp-for="@Model.Company"></label>
+                </td>
+                <td>
+                    <input asp-for="@Model.Company" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label asp-for="@Model.Client"></label>
+                </td>
+                <td>
+                    <input asp-for="@Model.Client" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label asp-for="@Model.NewsPaper"></label>
+                </td>
+                <td>
+                    <input asp-for="@Model.NewsPaper" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Save</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>

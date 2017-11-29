@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>String Example</title>
+    <script>
+        var greeting = "Welcome to the universe.";
+        var myName = "Karan";
+        var temp1 = "The rain in SPAIN stays mainly in the plain";
+        var temp2 = "Mr Blue has a blue house and a blue car";
+        var temp3 = 25;
+        var temp4 = "  hi...       ";
+
+        function employee(name, jobtitle, born) {
+            this.name = name;
+            this.jobtitle = jobtitle;
+            this.born = born;
+        }
+
+        function runJs() {
+            //A string can be any text inside double or single quotes:
+            var carname = "Volvo XC60";
+            var carName = 'Volvo XC60'; // JavaScript is case sensitive
+
+            /*Primitive values, like "John Doe", cannot have properties or methods (because they are not objects).
+            But with JavaScript, methods and properties are also available to primitive values, because JavaScript 
+            treats primitive values as objects when executing methods and properties.*/
+
+            // String Property
+            // constructor :: Returns the string's constructor function
+            var str = "Hello World";
+            document.getElementById("constructorDemo").innerHTML = str.constructor;
+
+            // length Property
+            document.getElementById("lengthDemo").innerHTML = "\" " + str + " \" length is  " + str.length;
+
+            // prototype Property
+            employee.prototype.salary = 2000;
+            var fred = new employee("Fred Flintstone", "Caveman", 1970);
+            document.getElementById("prototypeDemo").innerHTML = "fred salary is  :: " + fred.salary; //check in development tool fred.name
+
+            // charAt method
+            document.getElementById("charAtDemo").innerHTML = "\" " + str + " \" first index is  \"" + str.charAt(0) + "\" Last index is \"" + str.charAt(str.length - 1) + "\"";
+
+            // charCodeAt method
+            document.getElementById("charCodeAtDemo").innerHTML = "\" " + str + " \" first index Unicode value is  \"" + str.charCodeAt(0) + "\" Last index Unicode value is \"" + str.charCodeAt(str.length - 1) + "\"";
+
+            //concat method
+            // multiple string concating "string.concat(string1, string2, ..., stringX)"
+            document.getElementById("concatDemo").innerHTML = greeting.concat(myName);
+
+            //endsWith method
+            // The endsWith() method is case sensitive.
+            // string.endsWith(searchvalue, length) length is Optional. Specify the length of the string to search. If omitted, the default value is the length of the string
+            //document.getElementById("endsWithDemo").innerHTML=greeting.endsWith("the",14);
+            document.getElementById("endsWithDemo").innerHTML = str.endsWith("World");
+
+            //fromCharCode() method
+            //document.getElementById("fromCharCodeDemo").innerHTML = String.fromCharCode(65);
+            document.getElementById("fromCharCodeDemo").innerHTML = String.fromCharCode(72, 69, 76, 76, 79);
+
+            //includes method
+            //document.getElementById("includesDemo").innerHTML = greeting.includes("the",14); //start searching from 14 index
+            document.getElementById("includesDemo").innerHTML = greeting.includes("the");
+
+            // indexOf method
+            // The indexOf() method is case sensitive.
+            // string.indexOf(searchvalue, start) start value is Optional. Default 0. At which position to start the search
+            // document.getElementById("indexOfDemo").innerHTML = greeting.indexOf("e");
+            // document.getElementById("indexOfDemo").innerHTML = greeting.indexOf("o", 5); // Find the first occurrence of the letter "0" in a string, starting the search at position 5:
+            document.getElementById("indexOfDemo").innerHTML = greeting.indexOf("universe");
+
+            //lastIndexOf method
+            // string.lastIndexOf(searchvalue, start) start value is Optional. The position where to start the search (searching backwards). If omitted, the default value is the length of the string
+            // document.getElementById("lastIndexOfDemo").innerHTML = greeting.lastIndexOf("universe", 20);
+            document.getElementById("lastIndexOfDemo").innerHTML = greeting.lastIndexOf("o");
+
+            //localeCompare method
+            document.getElementById("localeCompareDemo").innerHTML = greeting.localeCompare(str);
+
+            // match method
+            // document.getElementById("matchDemo").innerHTML = temp.match(/ain/g); // g = Perform a global match (find all matches rather than stopping after the first match)
+            document.getElementById("matchDemo").innerHTML = temp1.match(/ain/gi); // i = Perform case-insensitive matching
+
+            // repeat method
+            document.getElementById("repeatDemo").innerHTML = myName.repeat(2);
+
+            // replace method
+            // string.replace(searchvalue, newvalue)
+            // document.getElementById("replaceDemo").innerHTML = "Orignal string is \"" + temp2 + "\" replace blue to red <br />" + temp2.replace(/blue/g, "red"); // global replacement
+            // document.getElementById("replaceDemo").innerHTML ="Orignal string is \"" + temp2 + "\" replace blue to red <br />" +temp2.replace(/blue|house|car/gi, function myFunction(x){return x.toUpperCase();});
+            document.getElementById("replaceDemo").innerHTML = myName.replace("Karan", "Mr.karan");
+
+            // search method
+            // document.getElementById("searchDemo").innerHTML = temp2.search(/blue/i);
+            document.getElementById("searchDemo").innerHTML = temp2.search("blue");
+
+            // slice method
+            // string.slice(start, end)   end value is Optional. The position (up to, but not including) where to end the extraction. If omitted, slice() selects all characters from the start-position to the end of the string
+            // document.getElementById("sliceDemo").innerHTML = greeting.slice(0); //extract the whole string
+            document.getElementById("sliceDemo").innerHTML = greeting.slice(3); // Extract position 3, and to the end
+            // document.getElementById("sliceDemo").innerHTML = greeting.slice(-2); // Extract only last two character
+            // document.getElementById("sliceDemo").innerHTML = "Orignal String is \"" + greeting + "\" (starting is first position ending fifth position)<br />" + greeting.slice(1, 5);
+
+            //startWith method
+            //string.startsWith(searchvalue, start) start value is Optional. Default 0. At which position to start the search
+            // document.getElementById("startWithDemo").innerHTML=greeting.startsWith("to",8);
+            document.getElementById("startWithDemo").innerHTML = greeting.startsWith("Welcome");
+
+
+            // substr method
+            // string.substr(start, length) length value is Optional. The number of characters to extract. If omitted, it extracts the rest of the string
+            // document.getElementById("substrDemo").innerHTML = greeting.substr(0); // extract whole the value
+            document.getElementById("substrDemo").innerHTML = greeting.substr(0, 7); // only 7 characters display and starting from zero position
+
+            //substring method
+            // string.substring(start, end) end value is Optional. The position (up to, but not including) where to end the extraction. If omitted, it extracts the rest of the string
+            // This method extracts the characters in a string between "start" and "end", not including "end" itself.
+            // document.getElementById("substringDemo").innerHTML = greeting.substring(-3);// If "start" is less than 0, it will start extraction from index position 0:
+            document.getElementById("substringDemo").innerHTML = greeting.substring(1, 4);
+
+            //toLocaleLowerCase method
+            document.getElementById("toLocaleLowerCaseDemo").innerHTML = temp2.toLocaleLowerCase();
+
+            // toLocaleUpperCase method
+            document.getElementById("toLocaleUpperCaseDemo").innerHTML = temp2.toLocaleUpperCase();
+
+            //toLowerCase method
+            document.getElementById("toLowerCaseDemo").innerHTML = temp2.toLowerCase();
+
+            // toUpperCase method
+            document.getElementById("toUpperCaseDemo").innerHTML = temp2.toUpperCase();
+
+            //toString method
+            document.getElementById("toStringDemo").innerHTML = temp3.toString();
+
+            //trim method
+            document.getElementById("trimDemo").innerHTML = temp4.trim();
+
+            //valueOf() method
+            document.getElementById("valueOfDemo").innerHTML = temp1.valueOf();
+        }
+    </script>
+</head>
+
+<body onload="runJs()">
+    <h1>String Object</h1>
+    <hr>
+    <hr>
+    <h2> String properties </h2>
+    <p>
+        <h3>constructor Property</h3> The constructor property returns the function that created the string's prototype:
+    </p>
+    <h4 id="constructorDemo"></h4>
+
+    <p>
+        <h3>length Property</h3> The length Property Return the length of string character </p>
+    <h4 id="lengthDemo"> </h4>
+
+    <p>
+        <h3>length Property</h3> The prototype property allows you to add new properties and methods to existing object types.
+    </p>
+    <h4 id="prototypeDemo"> </h4>
+    <hr>
+
+    <h2> String methods </h2>
+    <p>
+        <h3>charAt method</h3> The charAt() method returns the character at the specified index in a string. <br /> The index
+        of the first character is 0, the second character is 1, and so on.
+    </p>
+    <h4 id="charAtDemo"></h4>
+
+    <p>
+        <h3>charCodeAt method</h3> The charCodeAt() method returns the Unicode(Ascii
+        <value></value>) of the character at the specified index in a string.<br/> The index of the first character is 0, the second
+        character 1, and so on.
+    </p>
+    <h4 id="charCodeAtDemo"></h4>
+
+    <p>
+        <h3>concat method</h3>The concat() method is used to join two or more strings.<br /> This method does not change the
+        existing strings, but returns a new string containing the text of the joined strings.
+    </p>
+    <h4 id="concatDemo"></h4>
+
+    <p>
+        <h3>endsWith method</h3>The endsWith() method determines whether a string ends with the characters of a specified string.<br
+        /> This method returns true if the string ends with the characters, and false if not.
+    </p>
+    <h4 id="endsWithDemo"></h4>
+
+    <p>
+        <h3>fromCharCode method</h3>he fromCharCode() method converts Unicode(Ascii) values into characters.
+    </p>
+    <h4 id="fromCharCodeDemo"></h4>
+    <p>
+        <h3> includes method </h3> The includes() method determines whether a string contains the characters of a specified string.<br/>        This method returns true if the string contains the characters, and false if not.
+    </p>
+    <h4 id="includesDemo"></h4>
+
+    <p>
+        <h3>indexOf method</h3>The indexOf() method returns the position of the first occurrence of a specified value in a string.<br
+        /> This method returns -1 if the value to search for never occurs.
+    </p>
+    <h4 id="indexOfDemo"></h4>
+
+    <p>
+        <h3>lastIndexOf method</h3>The lastIndexOf() method returns the position of the last occurrence of a specified value
+        in a string.
+    </p>
+    <h4 id="lastIndexOfDemo"></h4>
+
+    <p>
+        <h3>localeCompare method</h3>The localeCompare method returns a number indicating whether str1 comes before, after or
+        is the same as str2 in sort order.</p>
+    <ul>
+        <li>Returns -1 if str1 is sorted before str2</li>
+        <li>Returns 0 if the two strings are equal</li>
+        <li>Returns 1 if str1 is sorted after str2</li>
+    </ul>
+    <h4 id="localeCompareDemo"></h4>
+
+    <p>
+        <h3>match method</h3>The match() method searches a string for a match against a regular expression, and returns the matches,
+        as an Array object.<br /> This method returns null if no match is found.
+    </p>
+    <h4 id="matchDemo"></h4>
+
+    <p>
+        <h3>Repeat method</h3> The repeat() method returns a new string with a specified number of copies of the string it was
+        called on.
+    </p>
+    <h4 id="repeatDemo"></h4>
+
+    <p>
+        <h3>Replace method</h3> The replace() method searches a string for a specified value, or a regular expression, and returns
+        a new string where the specified values are replaced.
+    </p>
+    <h4 id="replaceDemo"></h4>
+
+    <p>
+        <h3>Search method</h3>The search() method searches a string for a specified value, and returns the position of the match.
+        <br /> The search value can be string or a regular expression.
+        <br /> This method returns -1 if no match is found.
+    </p>
+    <h4 id="searchDemo"></h4>
+
+    <p>
+        <h3>slice method</h3>The slice() method extracts parts of a string and returns the extracted parts in a new string.
+        <br /> Use the start and end parameters to specify the part of the string you want to extract.
+        <br /> The first character has the position 0, the second has position 1, and so on.
+    </p>
+    <h4 id="sliceDemo"></h4>
+
+    <p>
+        <h3>startWith Method</h3>The startsWith() method determines whether a string begins with the characters of a specified
+        string.
+        <br /> This method returns true if the string begins with the characters, and false if not.
+    </p>
+    <h4 id="startWithDemo"></h4>
+
+    <p>
+        <h3>substr method</h3> The substr() method extracts parts of a string, beginning at the character at the specified position,
+        and returns the specified number of characters.
+    </p>
+    <h4 id="substrDemo"></h4>
+
+    <p>
+        <h3>substring() method </h3>
+        The substring() method extracts the characters from a string, between two specified indices, and returns the new sub string.
+        <br /> This method extracts the characters in a string between "start" and "end", not including "end" itself.
+        <br /> If "start" is greater than "end", this method will swap the two arguments, meaning str.substring(1, 4) ==
+        str.substring(4, 1).
+    </p>
+    <h4 id="substringDemo"></h4>
+
+    <p>
+        <h3> toLocaleLowerCaseDemo method </h3>
+        The toLocaleLowerCase() method converts a string to lowercase letters, according to the host's current locale.
+        <br /> The locale is based on the language settings of the browser.
+        <br /> Generally, this method returns the same result as the toLowerCase() method. However, for some locales, where
+        language conflict with the regular Unicode case mappings occurs (such as Turkish), the results may vary.
+    </p>
+    <h4 id="toLocaleLowerCaseDemo"></h4>
+
+    <p>
+        <h3>toLocaleUpperCase method</h3>
+        The toLocaleUpperCase() method converts a string to uppercase letters, according to the host's current locale.
+        <br /> The locale is based on the language settings of the browser.
+        <br /> Generally, this method returns the same result as the toUpperCase() method. However, for some locales, where
+        language conflict with the regular Unicode case mappings occurs (such as Turkish), the results may vary.
+    </p>
+    <h4 id="toLocaleUpperCaseDemo"> </h4>
+
+    <p>
+        <h3>toLowerCase method</h3> toLowerCase() method converts a string to lowercase letters.
+    </p>
+    <h4 id="toLowerCaseDemo"></h4>
+    <p>
+        <h3>toUpperCase method</h3> toUppercase() method Converts a string to uppercase letters
+    </p>
+    <h4 id="toUpperCaseDemo"></h4>
+
+    <p>
+        <h3>toString method</h3>The toString() method returns the value of a String object.
+    </p>
+    <h4 id="toStringDemo"></h4>
+
+    <p>
+        <h3>trim method</h3>The trim() method removes whitespace from both sides of a string.
+    </p>
+    <h4 id="trimDemo"></h4>
+
+    <p>
+        <h3>valueOf method </h3>The valueOf() method returns the primitive value of a String object.
+    </p>
+    <h4 id="valueOfDemo"></h4>
+
+    <hr>
+</body>
+
+</html>

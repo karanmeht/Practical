@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title id="title">Untitled Document</title>
+<script type="text/javascript">
+/*
+Method	                                 Description
+document.getElementById(id)	            Find an element by element id
+document.getElementsByTagName(name)	    Find elements by tag name
+document.getElementsByClassName(name)	Find elements by class name
+*/
+function bid()
+{
+try
+{
+document.getElementById("byid").innerHTML = "Use  getElementById Method";
+
+}
+catch(ex)
+{
+document.write(ex);
+}
+}
+
+function tname()
+{
+try{
+var x = document.getElementsByTagName("p");
+x[1].innerHTML = "Use  getElementsByTagName Method" ;
+//	document.getElementById("demo").innerHTML ='The first paragraph (index 0) is: ' + x[0].innerHTML;
+}
+catch(ex)
+{
+document.write(ex);
+}
+
+}
+
+function cname()
+{
+try{
+var x = document.getElementsByClassName("byclass");
+x[0].innerHTML = "Use  getElementsByClassName Method";
+}
+catch(ex)
+{
+document.write(ex);
+}
+}
+
+/*
+If you want to find all HTML elements that matches a specified CSS selector (id, class names, types, attributes, values of attributes, etc), use the querySelectorAll() method.
+This example returns a list of all <p> elements with class="intro".
+*/
+function qSelectAll()
+{
+var x = document.querySelectorAll("div.intro");
+document.getElementById("qsall").innerHTML = x[1].innerHTML;
+}
+	
+function SetTitleSetTitle()
+{
+var chan_title = document.getElementById("txttitle"); 
+document.getElementById("title").innerHTML = chan_title.value;
+document.getElementById("display_title").innerHTML = "Check Title <br /> Title Is <b>" + document.title + "</b>";
+}
+function link()
+{
+document.getElementById("list_link").innerHTML = "Number of Links :: " + document.links.length;
+}
+function image()
+{
+	document.getElementById("list_image").innerHTML = "Number of Image :: " + document.images.length;
+}
+
+function content_body()
+{
+alert(document.body.innerHTML);
+}
+function document_Element()
+{
+
+alert(document.documentElement.innerHTML);
+}
+</script>
+</head>
+
+<body>
+
+<form id="f" >
+
+<p id="byid"  onclick="bid()"> Click Hear to Represent getElementById Method </p>
+
+	<p  onclick="tname()"> Click Hear to Represent getElementByTagName Method </p>
+	<p class="byclass"  onclick="cname()"> Click Hear to Represent getElementByClassName Method </p>
+	
+	<div class="intro">Hello World!</div>
+
+<div class="intro">The DOM is very useful.</div>
+<div class="intro">This example demonstrates the <b>querySelectorAll</b> method.<p onclick="qSelectAll()" id="qsall">Click Hear</p></div>
+<p id="display_title" >Change Title: <input type="text" id="txttitle"  /><input type="button" value="Click hear" id="btntitle" onclick="SetTitleSetTitle()" /> </p>
+<p>
+<a href="/html/default.asp">HTML</a>
+<br>
+<a href="/css/default.asp">CSS</a>
+
+</p>
+<input type="button" value="NO of Links" onclick="link()" />
+<p id="list_link" ></p>
+<img src="C:\Users\mr karan\Pictures\wallpepar\2.jpg" width="200px">
+<img src="C:\Users\mr karan\Pictures\wallpepar\3.jpg" width="200px">
+<input type="button" value="NO of images" onclick="image()" />
+<p id="list_image" ></p>
+<input type="button" onclick="content_body()" value="content body" />
+<input type="button" onclick="document_Element()" value="document Element" />
+</form>
+
+</body>
+</html>

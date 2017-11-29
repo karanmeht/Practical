@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Global Example</title>
+    <script>
+        var n = 10;
+        var temp1;
+        var temp2 = "karan";
+        var temp3 = "25.50";
+        var url = "my test.asp?name=ståle&car=saab";
+
+        function isNaNFunction() {
+            var res = "";
+            res = res + isNaN(123) + ": 123<br>";
+            res = res + isNaN(-1.23) + ": -1.23<br>";
+            res = res + isNaN(5 - 2) + ": 5-2<br>";
+            res = res + isNaN(0) + ": 0<br>";
+            res = res + isNaN('123') + ": '123'<br>";
+            res = res + isNaN('Hello') + ": 'Hello'<br>";
+            res = res + isNaN('2005/12/12') + ": '2005/12/12'<br>";
+            res = res + isNaN('') + ": ''<br>";
+            res = res + isNaN(true) + ": true<br>";
+            res = res + isNaN(undefined) + ": undefined<br>";
+            res = res + isNaN('NaN') + ": 'NaN'<br>";
+            res = res + isNaN(NaN) + ": NaN<br>";
+            res = res + isNaN(0 / 0) + ": 0 / 0<br>";
+
+            return res;
+        }
+
+        function stringFunction() {
+            var x1 = Boolean(0);
+            var x2 = Boolean(1);
+            var x3 = new Date();
+            var x4 = "12345";
+            var x5 = 12345;
+
+            var res =
+                String(x1) + "<br>" +
+                String(x2) + "<br>" +
+                String(x3) + "<br>" +
+                String(x4) + "<br>" +
+                String(x5);
+            return res;
+        }
+
+        function runJs() {
+            //Nan Property
+            document.getElementById("naNDemo").innerHTML = temp2 !== (Number.NaN);
+
+            // undefined property 
+            document.getElementById("undefinedDemo").innerHTML = temp1 === undefined;
+
+            //encodeURI and decodeURI methods
+            var enc = encodeURI(url);
+            document.getElementById("urlDemo").innerHTML = "Orinal String :: \"" + url + "<br /> encodeURI Example :: \"" + enc + "\"<br /> decodeURI Example :: \"" + decodeURI(enc) + "\"";
+
+            //eval method
+            document.getElementById("evalDemo").innerHTML = "2+3 = " + eval("2+3") + "<br />(n=10)  n * 5 = " + eval("n * 5");
+
+            // isFinite method
+            // document.getElementById("isFiniteDemo").innerHTML = isFinite(temp2);  //  returns false
+            document.getElementById("isFiniteDemo").innerHTML = isFinite(n);  //  returns true
+
+            // isNaN method
+            // document.getElementById("isNaNDemo").innerHTML = isNaNFunction();
+            document.getElementById("isNaNDemo").innerHTML = isNaN(n) + ":: {" + n + "} is not NaN";
+
+            //parseInt method
+            document.getElementById("parseIntDemo").innerHTML = parseInt(temp3);
+
+            //parseFloat method
+            //Only the first number in the string is returned!
+            //Leading and trailing spaces are allowed.
+            //If the first character cannot be converted to a number, parseFloat() returns NaN.
+            document.getElementById("parseFloatDemo").innerHTML = parseFloat(temp3);
+
+            // string method
+            document.getElementById("stringDemo").innerHTML = stringFunction();
+        }
+    </script>
+</head>
+
+<body onload="runJs()">
+    <h1> Global Object Example </h1>
+    <p>The JavaScript global properties and functions can be used with all the built-in JavaScript objects.</p>
+
+    <hr>
+    <hr>
+
+    <h2> Global Object Property</h2>
+
+    <p>
+        <h3>NaN Property</h3>The NaN property represents "Not-a-Number" value. This property indicates that a value is not a
+        legal number.
+        <br /> The NaN property is the same as the Number.Nan property.
+    </p>
+    <h4 id="naNDemo"></h4>
+
+    <p>
+        <h3>undefined property </h3>The undefined property indicates that a variable has not been assigned a value.
+    </p>
+    <h4 id="undefinedDemo"></h4>
+
+    <hr>
+
+    <h2> Global Object methods</h2>
+
+    <p>
+        <h3> decodeUrl and encodeurl methods</h3>The decodeURI() function is used to decode a URI.<br /> The encodeURI() function
+        is used to encode a URI.
+        <br /> This function encodes special characters, except: , / ? : @ & = + $ # (Use encodeURIComponent() to encode
+        these characters). Tip: Use the d
+    </p>
+    <h4 id="urlDemo"></h4>
+
+    <p>
+        <h3>eval() method</h3>
+        The eval() function evaluates or executes an argument.
+        <br /> If the argument is an expression, eval() evaluates the expression. If the argument is one or more JavaScript
+        statements, eval() executes the statements.
+    </p>
+    <h4 id="evalDemo"></h4>
+
+    <p>
+        <h3>isFinite method</h3> The isFinite() function determines whether a number is a finite, legal number.<br /> This function
+        returns false if the value is +infinity, -infinity, or NaN (Not-a-Number), otherwise it returns true.
+    </p>
+    <h4 id="isFiniteDemo"></h4>
+
+    <p>
+        <h3>isNaN method</h3>The isNaN() function determines whether a value is an illegal number (Not-a-Number).
+        <br /> This function returns true if the value equates to NaN. Otherwise it returns false.
+        <br /> This function is different from the Number specific Number.isNaN() method.
+        <br /> The global isNaN() function, converts the tested value to a Number, then tests it.
+        <br /> Number.isNaN() does not convert the values to a Number, and will not return true for any value that is not
+        of the type Number.
+    </p>
+    <h4 id="isNaNDemo"></h4>
+
+    <p>
+        <h3>parseInt method</h3>
+        The parseInt() function parses a string and returns an integer. The radix parameter is used to specify which numeral system<br
+        /> to be used, for example, a radix of 16 (hexadecimal) indicates that the number in the string should be parsed
+        from
+        <br /> a hexadecimal number to a decimal number. If the radix parameter is omitted, JavaScript assumes the following:
+        <ul>
+            <li>If the string begins with "0x", the radix is 16 (hexadecimal)</li>
+            <li>If the string begins with "0", the radix is 8 (octal). This feature is deprecated</li>
+            <li>If the string begins with any other value, the radix is 10 (decimal)</li>
+        </ul>
+    </p>
+    <h4 id="parseIntDemo"></h4>
+    <p>
+        <h3> parseFloat method</h3>
+        The parseFloat() function parses a string and returns a floating point number.
+        <br /> This function determines if the first character in the specified string is a number. If it is, it parses the
+        string until it reaches the end of the number, and returns the number as a number, not as a string.
+    </p>
+    <h4 id="parseFloatDemo"></h4>
+
+    <p>
+        <h3>String method</h3>The String() function converts the value of an object to a string.<br /> The String() function
+        returns the same value as toString() of the individual objects.
+    </p>
+    <h4 id="stringDemo"></h4>
+</body>
+
+</html>

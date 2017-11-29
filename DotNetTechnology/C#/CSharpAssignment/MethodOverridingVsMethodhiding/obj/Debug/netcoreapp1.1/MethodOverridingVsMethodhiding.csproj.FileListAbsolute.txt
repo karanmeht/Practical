@@ -6,3 +6,12 @@ E:\study\karan\practical\C#\CSharpAssignment\MethodOverridingVsMethodhiding\bin\
 E:\study\karan\practical\C#\CSharpAssignment\MethodOverridingVsMethodhiding\obj\Debug\netcoreapp1.1\MethodOverridingVsMethodhiding.AssemblyInfo.cs
 E:\study\karan\practical\C#\CSharpAssignment\MethodOverridingVsMethodhiding\obj\Debug\netcoreapp1.1\MethodOverridingVsMethodhiding.dll
 E:\study\karan\practical\C#\CSharpAssignment\MethodOverridingVsMethodhiding\obj\Debug\netcoreapp1.1\MethodOverridingVsMethodhiding.pdb
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\MethodOverridingVsMethodhiding\bin\Debug\netcoreapp1.1\MethodOverridingVsMethodhiding.deps.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\MethodOverridingVsMethodhiding\bin\Debug\netcoreapp1.1\MethodOverridingVsMethodhiding.runtimeconfig.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\MethodOverridingVsMethodhiding\bin\Debug\netcoreapp1.1\MethodOverridingVsMethodhiding.runtimeconfig.dev.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\MethodOverridingVsMethodhiding\bin\Debug\netcoreapp1.1\MethodOverridingVsMethodhiding.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\MethodOverridingVsMethodhiding\bin\Debug\netcoreapp1.1\MethodOverridingVsMethodhiding.pdb
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\MethodOverridingVsMethodhiding\obj\Debug\netcoreapp1.1\MethodOverridingVsMethodhiding.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\MethodOverridingVsMethodhiding\obj\Debug\netcoreapp1.1\MethodOverridingVsMethodhiding.AssemblyInfo.cs
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\MethodOverridingVsMethodhiding\obj\Debug\netcoreapp1.1\MethodOverridingVsMethodhiding.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\MethodOverridingVsMethodhiding\obj\Debug\netcoreapp1.1\MethodOverridingVsMethodhiding.pdb

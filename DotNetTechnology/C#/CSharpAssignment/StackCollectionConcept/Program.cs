@@ -71,7 +71,7 @@ namespace StackCollectionConcept
             Console.WriteLine("Id :: {0} \t Name :: {1} \t Salary :: {2}", PeekCustomer.Id, PeekCustomer.Name, PeekCustomer.Salary);
             Console.WriteLine("Total number of queue = " + QueueCustomer.Count);
 
-            Console.WriteLine("\n Dequeue Method");
+            Console.WriteLine("\n pop Method");
             Customer RemoveCustomer = QueueCustomer.Pop();
             Console.WriteLine("Id :: {0} \t Name :: {1} \t Salary :: {2}", RemoveCustomer.Id, RemoveCustomer.Name, RemoveCustomer.Salary);
             Console.WriteLine("Total number of queue = " + QueueCustomer.Count);

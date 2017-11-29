@@ -6,3 +6,12 @@ E:\study\karan\practical\C#\CSharpAssignment\NullableDataType\bin\Debug\netcorea
 E:\study\karan\practical\C#\CSharpAssignment\NullableDataType\obj\Debug\netcoreapp1.1\NullableDataType.AssemblyInfo.cs
 E:\study\karan\practical\C#\CSharpAssignment\NullableDataType\obj\Debug\netcoreapp1.1\NullableDataType.dll
 E:\study\karan\practical\C#\CSharpAssignment\NullableDataType\obj\Debug\netcoreapp1.1\NullableDataType.pdb
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\NullableDataType\bin\Debug\netcoreapp1.1\NullableDataType.deps.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\NullableDataType\bin\Debug\netcoreapp1.1\NullableDataType.runtimeconfig.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\NullableDataType\bin\Debug\netcoreapp1.1\NullableDataType.runtimeconfig.dev.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\NullableDataType\bin\Debug\netcoreapp1.1\NullableDataType.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\NullableDataType\bin\Debug\netcoreapp1.1\NullableDataType.pdb
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\NullableDataType\obj\Debug\netcoreapp1.1\NullableDataType.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\NullableDataType\obj\Debug\netcoreapp1.1\NullableDataType.AssemblyInfo.cs
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\NullableDataType\obj\Debug\netcoreapp1.1\NullableDataType.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\NullableDataType\obj\Debug\netcoreapp1.1\NullableDataType.pdb

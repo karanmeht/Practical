@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.AspNetCore.Razor.Design</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.AspNetCore.Razor.Design.DesignResources">
+            <summary>
+               A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Razor.Design.DesignResources.ResourceManager">
+            <summary>
+               Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Razor.Design.DesignResources.Culture">
+            <summary>
+               Overrides the current thread's CurrentUICulture property for all
+               resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Razor.Design.DesignResources.CouldNotInvokeTool">
+            <summary>
+               Looks up a localized string similar to Could not invoke tool. Ensure project.json has matching versions of &apos;{0}&apos; in the &apos;dependencies&apos; section and &apos;{1}&apos; in the &apos;tools&apos; section..
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Razor.Design.DesignResources.CouldNotParseProvidedProtocol">
+            <summary>
+               Looks up a localized string similar to Could not parse provided protocol &apos;{0}&apos;. Protocols should be valid int32 values..
+            </summary>
+        </member>
+        <member name="P:Microsoft.AspNetCore.Razor.Design.DesignResources.InvalidProtocolValue">
+            <summary>
+               Looks up a localized string similar to &apos;{0}&apos;s cannot be resolved with protocol &apos;{1}&apos;. Protocol not supported..
+            </summary>
+        </member>
+    </members>
+</doc>

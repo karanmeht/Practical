@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>getElementById</title>
+</head>
+
+<body>
+Username:<input type="text" id="unm"/>
+Password:<input type="password" id="pwd"/>
+<input type="button" value="submit" onclick="gete()" />
+<p id="demo"> </p>
+<script type="text/javascript">
+
+	function gete()
+	{
+		
+		var unm = document.getElementById("unm").value;
+		var pwd = document.getElementById("pwd").value;
+		var msg = document.getElementById("demo");
+		msg.style.color = "red";  
+		msg.innerHTML = "UserName: " + unm + "<br />Password: " + pwd; 
+		
+	}
+
+	
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- saved from url=(0158)https://s0.2mdn.net/ads/richmedia/studio/pv2/39869269/20151112091426153/AdSense_160x600_EN.html?e=69&renderingType=2&leftOffset=0&topOffset=0&c=U2XiixSbsY&t=1 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title></title>
+<script src="./Enabler_01_90.js"> </script>
+    
+<script src="./easeljs-0.7.1.min.js"></script>
+<script src="./tweenjs-0.5.1.min.js"></script>
+<script src="./movieclip-0.7.1.min.js"></script>
+<script src="./AdSense_160x600_EN.js"></script>
+
+<script>
+var canvas, stage, exportRoot;
+
+function init() {
+	canvas = document.getElementById("canvas");
+	exportRoot = new lib.AdSense_160x600_EN();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+
+	createjs.Ticker.setFPS(lib.properties.fps);
+	createjs.Ticker.addEventListener("tick", stage);
+}
+</script>
+    
+</head>
+
+<body onload="init();" style="background-color:#ffffff; margin:0; padding:0;">
+	<canvas id="canvas" width="160" height="600" style="background-color:#FFFFFF"></canvas>
+
+</body></html>

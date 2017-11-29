@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form name="login">
+		<pre>
+			Username <input type="text" name="unm" value="karan"/>
+			Password <input type="text" name="pwd"/>
+			<input type="button" value="Go.." />
+		</pre>
+	</form>
+	
+	<form name="detail">
+		<pre>
+			Firstname <input type="text" name="fnm" />
+			Lastname <input type="text" name="lnm" value="mehta"/>
+			Username <input type="text" name="unm" />
+			<input type="button" value="sumbit.." />
+		</pre>
+	</form>
+<script type="text/javascript">
+	// access form
+	 var f1 = document.forms[0].elements[0].name;/*var f1 = document.login.unm.name; or var f1 = document.login.unm.value; document is object, form just like method, element is like variable, name is proparties */
+	var f2 = document.forms[1].elements[1].value;
+	
+	document.write(f1);
+	document.write("<br>"+f2);
+</script>
+
+</body>
+</html>

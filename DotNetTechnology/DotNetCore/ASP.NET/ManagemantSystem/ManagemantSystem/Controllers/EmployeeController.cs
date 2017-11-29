@@ -50,7 +50,8 @@ namespace ManagemantSystem.Controllers
         [HttpGet]
         public IActionResult AddEmployeeView()
         {
-            return View("AddEmployee");
+            Employee Emp = new Employee();
+            return View("AddEmployee",Emp);
         }
 
         [HttpPost]

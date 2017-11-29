@@ -1,57 +1,58 @@
-﻿using System;
-using System.Collections.Generic;
+﻿//using System.Collections.Generic;
 using System.Threading.Tasks;
 using ManagementSystem.Models.Employee;
 using ManagementSystem.Models;
 using System.Data.Entity;
+using System;
 using System.Linq;
-
+using System.Collections;
+using System.Collections.Generic;
 
 namespace ManagementSystem.Repository.RepositoryEmployee
 {
     public class RepositoryEmployee : IRepositoryEmployee
     {
-        private readonly ManagementSystemModel _context;
+        private readonly ManagementSystemDbContext _dbContext;
 
-        public RepositoryEmployee(ManagementSystemModel context)
+        public RepositoryEmployee(ManagementSystemDbContext dbContext)
         {
-            _context = context;
+            _dbContext = dbContext;
         }
 
         public async Task AddEmployee(Employee employee)
         {
             employee.CreateDateTime = DateTime.UtcNow;
-            _context.Employee.Add(employee);
-            await _context.SaveChangesAsync();
+            _dbContext.Employee.Add(employee);
+            await _dbContext.SaveChangesAsync();
         }
 
-        public async Task<List<Employee>> GetAllEmployee()
+        public async Task<IEnumerable<Employee>> GetAllEmployee()
         {
-            return (await _context.Employee.ToListAsync());
+
+            return (await _dbContext.Employee.ToListAsync());
         }
 
         public async Task<Employee> GetEmployeeById(int id)
         {
-            //var temp = (from e in Employee where e.id == id select e);
-            return (await _context.Employee.FirstOrDefaultAsync(e => e.Id == id));
+            return (await _dbContext.Employee.FirstOrDefaultAsync(emp => emp.Id == id));
         }
 
-        public async Task<bool> IsEmployeeExist(int id)
+        public async Task<bool> IsExistsEmployee(int id)
         {
-            return (await _context.Employee.AnyAsync(e => e.Id == id));
+            return (await _dbContext.Employee.AnyAsync(emp => emp.Id == id));
         }
 
-        public async Task RemoveEmployeeAsync(Employee employee)
+        public async Task RemoveEmployee(Employee employee)
         {
-            _context.Employee.Remove(employee);
-            await _context.SaveChangesAsync();
+            _dbContext.Employee.Remove(employee);
+            await _dbContext.SaveChangesAsync();
         }
 
-        public async Task UpdateEmployeeAsync(Employee employee)
+        public async Task UpdateEmployee(Employee employee)
         {
             employee.UpdateDateTime = DateTime.UtcNow;
-            _context.Entry(employee).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
+            _dbContext.Entry(employee).State = EntityState.Modified;
+            await _dbContext.SaveChangesAsync();
         }
     }
 }

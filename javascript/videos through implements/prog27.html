@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<form name="my">
+<p>The typeof operator returns the type of a variable, object, function or expression.</p>
+
+<p id="demo"></p>
+</form>
+<script>
+document.getElementById("demo").innerHTML =
+    typeof "john" + "<br>" +
+    typeof 3.14 + "<br>" +
+    typeof NaN + "<br>" +
+    typeof false + "<br>" +
+    typeof [1,2,3,4] + "<br>" +
+    typeof {name:'john', age:34} + "<br>" +
+    typeof new Date() + "<br>" +
+    typeof function () {} + "<br>" +
+    typeof myCar + "<br>" +
+    typeof null;	
+</script>
+
+</body>
+</html>

@@ -45,7 +45,7 @@ namespace StaticConcept
             Console.WriteLine("Static Constructor Called");
             _PI = 3.141F;
         }
-
+        
         public Circle(int Redius)
         {
             Console.WriteLine("Instance Constructor Called");

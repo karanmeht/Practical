@@ -7,3 +7,12 @@ E:\study\karan\practical\C#\CSharpAssignment\QueueCollectionConcept\obj\Debug\ne
 E:\study\karan\practical\C#\CSharpAssignment\QueueCollectionConcept\obj\Debug\netcoreapp1.1\QueueCollectionConcept.dll
 E:\study\karan\practical\C#\CSharpAssignment\QueueCollectionConcept\obj\Debug\netcoreapp1.1\QueueCollectionConcept.pdb
 E:\study\karan\practical\C#\CSharpAssignment\QueueCollectionConcept\obj\Debug\netcoreapp1.1\QueueCollectionConcept.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\QueueCollectionConcept\bin\Debug\netcoreapp1.1\QueueCollectionConcept.deps.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\QueueCollectionConcept\bin\Debug\netcoreapp1.1\QueueCollectionConcept.runtimeconfig.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\QueueCollectionConcept\bin\Debug\netcoreapp1.1\QueueCollectionConcept.runtimeconfig.dev.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\QueueCollectionConcept\bin\Debug\netcoreapp1.1\QueueCollectionConcept.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\QueueCollectionConcept\bin\Debug\netcoreapp1.1\QueueCollectionConcept.pdb
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\QueueCollectionConcept\obj\Debug\netcoreapp1.1\QueueCollectionConcept.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\QueueCollectionConcept\obj\Debug\netcoreapp1.1\QueueCollectionConcept.AssemblyInfo.cs
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\QueueCollectionConcept\obj\Debug\netcoreapp1.1\QueueCollectionConcept.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\QueueCollectionConcept\obj\Debug\netcoreapp1.1\QueueCollectionConcept.pdb

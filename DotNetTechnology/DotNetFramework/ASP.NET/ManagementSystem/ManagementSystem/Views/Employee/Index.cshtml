@@ -1,0 +1,93 @@
+﻿@model  IEnumerable<ManagementSystem.Models.Employee.Employee>
+
+@{
+    int i = 0;
+
+    ViewBag.Title = "index";
+}
+<form>
+
+    @Html.ActionLink("Create", "CreateEmployee", new { @class = "btn-default" })
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    # No
+                </th>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Age
+                </th>
+                <th>
+                    Date Of Birth
+                </th>
+                <th>
+                    Phone
+                </th>
+                <th>
+                    Country
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var Employee in Model)
+            {
+
+                <tr>
+                    <td>
+                        @Employee.Id
+                    </td>
+                    <td>
+                        @(++i)
+                    </td>
+                    <td>
+                        @Employee.Name
+                    </td>
+                    <td>
+                        @Employee.Age
+                    </td>
+                    <td>
+                        @Employee.DateOfBirth.Date.ToString("dd/MM/yyyy")
+                    </td>
+                    <td>
+                        @Employee.Phone
+                    </td>
+                    <td>
+                        @Employee.Country
+                    </td>
+                    <td>
+                        <span>
+                            @Html.ActionLink("Edit", "UpdateEmployee", new { id = Employee.Id }) |
+                            @Html.ActionLink("Delete", "DeleteEmployee", new { id = Employee.Id })
+                        </span>
+                    </td>
+                </tr>
+
+            }
+        </tbody>
+    </table>
+    <nav aria-label="loading....">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+            @for (int j = 1; j <= 10; j++)
+            {
+                //   @Html.ActionLink(Convert.ToString(j), "Index", new { id = (Convert.ToInt32(j * 1011)) },new { @class="page-item"})
+                <li class="page-item"><a class="page-link">@j</a></li>
+            }
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</form>

@@ -1,0 +1,9 @@
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\pagging\bin\Debug\netcoreapp1.1\pagging.deps.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\pagging\bin\Debug\netcoreapp1.1\pagging.runtimeconfig.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\pagging\bin\Debug\netcoreapp1.1\pagging.runtimeconfig.dev.json
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\pagging\bin\Debug\netcoreapp1.1\pagging.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\pagging\bin\Debug\netcoreapp1.1\pagging.pdb
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\pagging\obj\Debug\netcoreapp1.1\pagging.csprojResolveAssemblyReference.cache
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\pagging\obj\Debug\netcoreapp1.1\pagging.AssemblyInfo.cs
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\pagging\obj\Debug\netcoreapp1.1\pagging.dll
+E:\study\karan\practical\DotNetTechnology\C#\CSharpAssignment\pagging\obj\Debug\netcoreapp1.1\pagging.pdb
